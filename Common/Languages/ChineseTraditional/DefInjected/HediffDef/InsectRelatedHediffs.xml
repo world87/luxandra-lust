@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Luxandra_ImplantationInducedLethargy -->
+  <Luxandra_ImplantationInducedLethargy.label>植入誘發性嗜睡</Luxandra_ImplantationInducedLethargy.label>
+  <Luxandra_ImplantationInducedLethargy.description>這隻昆蟲因襲擊過程而徹底耗竭，其運動功能與神經協調能力遭到嚴重破壞。</Luxandra_ImplantationInducedLethargy.description>
+  <Luxandra_ImplantationInducedLethargy.stages.0.label>末期</Luxandra_ImplantationInducedLethargy.stages.0.label>
+
+</LanguageData>

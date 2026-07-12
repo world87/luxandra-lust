@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Luxandra_Setting_Reset_Button>重設為預設值</Luxandra_Setting_Reset_Button>
+
+  <Luxandra_Setting_EnableLogging_Label>啟用除錯日誌</Luxandra_Setting_EnableLogging_Label>
+  <Luxandra_Setting_EnableLogging_Desc>在日誌中顯示大多數動作。訊息量非常多，僅供除錯使用。</Luxandra_Setting_EnableLogging_Desc>
+
+  <Luxandra_Setting_ShowNotifications_Label>顯示滿足通知</Luxandra_Setting_ShowNotifications_Label>
+  <Luxandra_Setting_ShowNotifications_Desc>當你的殖民地成功滿足露珊卓拉的癖好時，顯示畫面上方的通知提示。\n\n（大型殖民地中可能會大量洗版）</Luxandra_Setting_ShowNotifications_Desc>
+
+  <Luxandra_Setting_ChildbirthAppraisal_Label>啟用生產評價</Luxandra_Setting_ChildbirthAppraisal_Label>
+  <Luxandra_Setting_ChildbirthAppraisal_Desc>啟用對新生兒誕生的評判。\n露珊卓拉會將受孕方式與你的殖民地信仰進行比較（理念 &gt; 基因 &gt; 特性），並根據是否相符給予祝福或詛咒。\n\n（她會依序評判獸性越界、肉體交易，接著是強制侵犯）</Luxandra_Setting_ChildbirthAppraisal_Desc>
+
+  <Luxandra_Setting_AnimalAppraisal_Label>啟用殖民地動物的生產評價</Luxandra_Setting_AnimalAppraisal_Label>
+  <Luxandra_Setting_AnimalAppraisal_Desc>若殖民地動物生下人類，其生產也會被納入獸性越界傾向的評判。</Luxandra_Setting_AnimalAppraisal_Desc>
+
+  <Luxandra_Setting_AllowCumStains_Label>允許大量生成精液污漬</Luxandra_Setting_AllowCumStains_Label>
+  <Luxandra_Setting_AllowCumStains_Desc>允許那些原本會生成大量精液污物的事件生成完整數量。\n\n這可能會讓較慢的電腦或大型殖民地出現卡頓，請謹慎使用。</Luxandra_Setting_AllowCumStains_Desc>
+
+  <Luxandra_Setting_MonumentKinkShift_Label>啟用露珊卓拉紀念碑的癖好適性（NSFW）</Luxandra_Setting_MonumentKinkShift_Label>
+  <Luxandra_Setting_MonumentKinkShift_Desc>允許露珊卓拉紀念碑改變形狀，以符合她目前啟用中的癖好。\n\n若停用，它會維持在無癖好形態。（請重新載入存檔以正確套用）</Luxandra_Setting_MonumentKinkShift_Desc>
+
+  <Luxandra_Setting_RemoveRomanceRestrictions_Label>移除近親戀愛限制（需要重新啟動）</Luxandra_Setting_RemoveRomanceRestrictions_Label>
+  <Luxandra_Setting_RemoveRomanceRestrictions_Desc>移除與近親關係相關的戀愛機率懲罰。</Luxandra_Setting_RemoveRomanceRestrictions_Desc>
+
+  <Luxandra_Setting_CycleInterval_Label>敘事者特殊週期間隔：{0} 天</Luxandra_Setting_CycleInterval_Label>
+  <Luxandra_Setting_CycleInterval_Desc>決定露珊卓拉多久檢查一次你的殖民地滿足程度，並送出一次特殊週期事件。</Luxandra_Setting_CycleInterval_Desc>
+
+  <Luxandra_Setting_Countdown_Dev>&lt;color=cyan&gt; • 目前啟用倒數：剩餘 {0} 天。&lt;/color&gt;</Luxandra_Setting_Countdown_Dev>
+
+  <Luxandra_Setting_RerollCondition_Label>重骰條件：</Luxandra_Setting_RerollCondition_Label>
+  <Luxandra_Setting_RerollCondition_Desc>決定露珊卓拉會根據你的性行為重骰哪些事件。</Luxandra_Setting_RerollCondition_Desc>
+
+  <Luxandra_Setting_Reroll_Opt_Disabled>停用</Luxandra_Setting_Reroll_Opt_Disabled>
+  <Luxandra_Setting_Reroll_Opt_Negative>僅限負面事件</Luxandra_Setting_Reroll_Opt_Negative>
+  <Luxandra_Setting_Reroll_Opt_All>所有事件</Luxandra_Setting_Reroll_Opt_All>
+
+  <Luxandra_Setting_ThresholdMultiplier_Label>滿足目標倍率：{0}x</Luxandra_Setting_ThresholdMultiplier_Label>
+  <Luxandra_Setting_ThresholdMultiplier_Desc1>調整露珊卓拉對滿足程度的要求有多嚴格。較低數值會讓她更容易取悅；較高數值則需要更密集的管理。</Luxandra_Setting_ThresholdMultiplier_Desc1>
+  <Luxandra_Setting_ThresholdMultiplier_Desc2>使用預設設定時，正常性活動程度的殖民地平均每 2 次事件應能穩定取悅她一次。</Luxandra_Setting_ThresholdMultiplier_Desc2>
+
+  <Luxandra_Setting_Preview_Header>&lt;color=cyan&gt;目前殖民地即時預覽：&lt;/color&gt;</Luxandra_Setting_Preview_Header>
+  <Luxandra_Setting_Preview_Colonists> • 已生成成年殖民者：&lt;color=cyan&gt;{0}&lt;/color&gt;</Luxandra_Setting_Preview_Colonists>
+  <Luxandra_Setting_Preview_Slaves> • 已生成成年奴隸：&lt;color=cyan&gt;{0}&lt;/color&gt;</Luxandra_Setting_Preview_Slaves>
+  <Luxandra_Setting_Preview_BaseMetric> • 基礎公式指標：&lt;color=cyan&gt;{0}&lt;/color&gt;</Luxandra_Setting_Preview_BaseMetric>
+  <Luxandra_Setting_Preview_FinalTarget> • 最終啟用目標閾值：&lt;color=cyan&gt;&lt;b&gt;{0}&lt;/b&gt;&lt;/color&gt;</Luxandra_Setting_Preview_FinalTarget>
+  <Luxandra_Setting_Preview_Error>&lt;color=red&gt;預覽錯誤：{0}&lt;/color&gt;</Luxandra_Setting_Preview_Error>
+  <Luxandra_Setting_Preview_NoGame>即時預覽：載入存檔後即可查看目前殖民地的閾值預覽。</Luxandra_Setting_Preview_NoGame>
+
+</LanguageData>

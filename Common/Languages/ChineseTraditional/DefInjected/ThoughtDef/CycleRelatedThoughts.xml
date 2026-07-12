@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Luxandra cycle thoughts -->
+  <Luxandra_SatisfiedCycle.stages.0.label>露珊卓拉的興致</Luxandra_SatisfiedCycle.stages.0.label>
+  <Luxandra_SatisfiedCycle.stages.0.description>我心裡有種溫暖的感覺，像是某個看不見的存在剛剛偷看了我們的私密時刻，而且還看得很開心。這有點不要臉，但是……老實說，還挺刺激的。</Luxandra_SatisfiedCycle.stages.0.description>
+
+  <Luxandra_FrustratedCycle.stages.0.label>露珊卓拉的評判</Luxandra_FrustratedCycle.stages.0.label>
+  <Luxandra_FrustratedCycle.stages.0.description>我的腦海深處有種微弱而挑剔的刺痛感，像是某位遙遠的神祇正低頭盯著我們，並對我們如此保守、無趣的模樣深深嘆氣。</Luxandra_FrustratedCycle.stages.0.description>
+
+</LanguageData>

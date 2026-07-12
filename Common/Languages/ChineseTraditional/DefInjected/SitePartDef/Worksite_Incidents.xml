@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Fertility Pulse site part -->
+  <Luxandra_FertilityPulseSitePart.label>繁殖脈衝發射器</Luxandra_FertilityPulseSitePart.label>
+  <Luxandra_FertilityPulseSitePart.description>一處包含局部靈能發射器的地點，正向整片區域發出特定頻率。</Luxandra_FertilityPulseSitePart.description>
+
+  <!-- Wet Dreams Pulse site part -->
+  <Luxandra_WetDreamsPulseSitePart.label>春夢誘發器</Luxandra_WetDreamsPulseSitePart.label>
+  <Luxandra_WetDreamsPulseSitePart.description>一處包含局部靈能發射器的地點，正向整片區域發出特定頻率。</Luxandra_WetDreamsPulseSitePart.description>
+
+</LanguageData>

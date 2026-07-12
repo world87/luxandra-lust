@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Luxandra_Amazon_FactionNameMaker -->
+  <Luxandra_Amazon_FactionNameMaker.rulePack.rulesStrings.0>r_name->[adj][noun]</Luxandra_Amazon_FactionNameMaker.rulePack.rulesStrings.0>
+  <Luxandra_Amazon_FactionNameMaker.rulePack.rulesStrings.1>r_name->[goddess]的[noun]</Luxandra_Amazon_FactionNameMaker.rulePack.rulesStrings.1>
+  <Luxandra_Amazon_FactionNameMaker.rulePack.rulesStrings.2>r_name->[goddess]之[noun]</Luxandra_Amazon_FactionNameMaker.rulePack.rulesStrings.2>
+
+  <Luxandra_Amazon_FactionNameMaker.rulePack.rulesStrings.3>goddess->露珊卓拉</Luxandra_Amazon_FactionNameMaker.rulePack.rulesStrings.3>
+
+  <Luxandra_Amazon_FactionNameMaker.rulePack.rulesStrings.4>adj->猩紅</Luxandra_Amazon_FactionNameMaker.rulePack.rulesStrings.4>
+  <Luxandra_Amazon_FactionNameMaker.rulePack.rulesStrings.5>adj->染血</Luxandra_Amazon_FactionNameMaker.rulePack.rulesStrings.5>
+  <Luxandra_Amazon_FactionNameMaker.rulePack.rulesStrings.6>adj->血肉</Luxandra_Amazon_FactionNameMaker.rulePack.rulesStrings.6>
+  <Luxandra_Amazon_FactionNameMaker.rulePack.rulesStrings.7>adj->狂野</Luxandra_Amazon_FactionNameMaker.rulePack.rulesStrings.7>
+  <Luxandra_Amazon_FactionNameMaker.rulePack.rulesStrings.8>adj->塞壬</Luxandra_Amazon_FactionNameMaker.rulePack.rulesStrings.8>
+
+  <Luxandra_Amazon_FactionNameMaker.rulePack.rulesStrings.9>noun->獵姬</Luxandra_Amazon_FactionNameMaker.rulePack.rulesStrings.9>
+  <Luxandra_Amazon_FactionNameMaker.rulePack.rulesStrings.10>noun->盟誓</Luxandra_Amazon_FactionNameMaker.rulePack.rulesStrings.10>
+  <Luxandra_Amazon_FactionNameMaker.rulePack.rulesStrings.11>noun->獵群</Luxandra_Amazon_FactionNameMaker.rulePack.rulesStrings.11>
+  <Luxandra_Amazon_FactionNameMaker.rulePack.rulesStrings.12>noun->姐妹會</Luxandra_Amazon_FactionNameMaker.rulePack.rulesStrings.12>
+  <Luxandra_Amazon_FactionNameMaker.rulePack.rulesStrings.13>noun->怒火</Luxandra_Amazon_FactionNameMaker.rulePack.rulesStrings.13>
+
+</LanguageData>

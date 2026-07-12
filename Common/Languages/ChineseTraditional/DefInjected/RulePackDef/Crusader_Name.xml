@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Luxandra_Crusader_FactionNameMaker -->
+  <Luxandra_Crusader_FactionNameMaker.rulePack.rulesStrings.0>r_name->[factionAdj][factionNoun]</Luxandra_Crusader_FactionNameMaker.rulePack.rulesStrings.0>
+  <Luxandra_Crusader_FactionNameMaker.rulePack.rulesStrings.1>r_name->[sacredNoun]之[factionNoun]</Luxandra_Crusader_FactionNameMaker.rulePack.rulesStrings.1>
+
+  <Luxandra_Crusader_FactionNameMaker.rulePack.rulesStrings.2>factionAdj->聖潔</Luxandra_Crusader_FactionNameMaker.rulePack.rulesStrings.2>
+  <Luxandra_Crusader_FactionNameMaker.rulePack.rulesStrings.3>factionAdj->正義</Luxandra_Crusader_FactionNameMaker.rulePack.rulesStrings.3>
+  <Luxandra_Crusader_FactionNameMaker.rulePack.rulesStrings.4>factionAdj->鋼鐵</Luxandra_Crusader_FactionNameMaker.rulePack.rulesStrings.4>
+  <Luxandra_Crusader_FactionNameMaker.rulePack.rulesStrings.5>factionAdj->至權</Luxandra_Crusader_FactionNameMaker.rulePack.rulesStrings.5>
+
+  <Luxandra_Crusader_FactionNameMaker.rulePack.rulesStrings.6>factionNoun->教團</Luxandra_Crusader_FactionNameMaker.rulePack.rulesStrings.6>
+  <Luxandra_Crusader_FactionNameMaker.rulePack.rulesStrings.7>factionNoun->十字軍</Luxandra_Crusader_FactionNameMaker.rulePack.rulesStrings.7>
+  <Luxandra_Crusader_FactionNameMaker.rulePack.rulesStrings.8>factionNoun->分會</Luxandra_Crusader_FactionNameMaker.rulePack.rulesStrings.8>
+  <Luxandra_Crusader_FactionNameMaker.rulePack.rulesStrings.9>factionNoun->審判庭</Luxandra_Crusader_FactionNameMaker.rulePack.rulesStrings.9>
+
+  <Luxandra_Crusader_FactionNameMaker.rulePack.rulesStrings.10>sacredNoun->聖劍</Luxandra_Crusader_FactionNameMaker.rulePack.rulesStrings.10>
+  <Luxandra_Crusader_FactionNameMaker.rulePack.rulesStrings.11>sacredNoun->聖光</Luxandra_Crusader_FactionNameMaker.rulePack.rulesStrings.11>
+  <Luxandra_Crusader_FactionNameMaker.rulePack.rulesStrings.12>sacredNoun->聖杯</Luxandra_Crusader_FactionNameMaker.rulePack.rulesStrings.12>
+  <Luxandra_Crusader_FactionNameMaker.rulePack.rulesStrings.13>sacredNoun->誓言</Luxandra_Crusader_FactionNameMaker.rulePack.rulesStrings.13>
+
+
+  <!-- Luxandra_Crusader_SettlementNameMaker -->
+  <Luxandra_Crusader_SettlementNameMaker.rulePack.rulesStrings.0>r_name->[prefix][suffix]</Luxandra_Crusader_SettlementNameMaker.rulePack.rulesStrings.0>
+  <Luxandra_Crusader_SettlementNameMaker.rulePack.rulesStrings.1>r_name->[holyWord]之[structure]</Luxandra_Crusader_SettlementNameMaker.rulePack.rulesStrings.1>
+
+  <Luxandra_Crusader_SettlementNameMaker.rulePack.rulesStrings.2>prefix->錫安</Luxandra_Crusader_SettlementNameMaker.rulePack.rulesStrings.2>
+  <Luxandra_Crusader_SettlementNameMaker.rulePack.rulesStrings.3>prefix->瓦爾</Luxandra_Crusader_SettlementNameMaker.rulePack.rulesStrings.3>
+  <Luxandra_Crusader_SettlementNameMaker.rulePack.rulesStrings.4>prefix->鐵</Luxandra_Crusader_SettlementNameMaker.rulePack.rulesStrings.4>
+  <Luxandra_Crusader_SettlementNameMaker.rulePack.rulesStrings.5>prefix->鋼</Luxandra_Crusader_SettlementNameMaker.rulePack.rulesStrings.5>
+  <Luxandra_Crusader_SettlementNameMaker.rulePack.rulesStrings.6>prefix->金</Luxandra_Crusader_SettlementNameMaker.rulePack.rulesStrings.6>
+
+  <Luxandra_Crusader_SettlementNameMaker.rulePack.rulesStrings.7>suffix->衛</Luxandra_Crusader_SettlementNameMaker.rulePack.rulesStrings.7>
+  <Luxandra_Crusader_SettlementNameMaker.rulePack.rulesStrings.8>suffix->砦</Luxandra_Crusader_SettlementNameMaker.rulePack.rulesStrings.8>
+  <Luxandra_Crusader_SettlementNameMaker.rulePack.rulesStrings.9>suffix->尖塔</Luxandra_Crusader_SettlementNameMaker.rulePack.rulesStrings.9>
+  <Luxandra_Crusader_SettlementNameMaker.rulePack.rulesStrings.10>suffix->堡</Luxandra_Crusader_SettlementNameMaker.rulePack.rulesStrings.10>
+
+  <Luxandra_Crusader_SettlementNameMaker.rulePack.rulesStrings.11>structure->堡壘</Luxandra_Crusader_SettlementNameMaker.rulePack.rulesStrings.11>
+  <Luxandra_Crusader_SettlementNameMaker.rulePack.rulesStrings.12>structure->城塞</Luxandra_Crusader_SettlementNameMaker.rulePack.rulesStrings.12>
+  <Luxandra_Crusader_SettlementNameMaker.rulePack.rulesStrings.13>structure->聖所</Luxandra_Crusader_SettlementNameMaker.rulePack.rulesStrings.13>
+
+  <Luxandra_Crusader_SettlementNameMaker.rulePack.rulesStrings.14>holyWord->聖光</Luxandra_Crusader_SettlementNameMaker.rulePack.rulesStrings.14>
+  <Luxandra_Crusader_SettlementNameMaker.rulePack.rulesStrings.15>holyWord->審判</Luxandra_Crusader_SettlementNameMaker.rulePack.rulesStrings.15>
+  <Luxandra_Crusader_SettlementNameMaker.rulePack.rulesStrings.16>holyWord->虔信者</Luxandra_Crusader_SettlementNameMaker.rulePack.rulesStrings.16>
+
+</LanguageData>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Luxandra_PulseChildConfusion -->
+  <Luxandra_PulseChildConfusion.label>靈能困惑</Luxandra_PulseChildConfusion.label>
+  <Luxandra_PulseChildConfusion.description>因周遭成年人奇怪的行為而感到困惑。</Luxandra_PulseChildConfusion.description>
+
+  <!-- Luxandra_PulseAdultMale -->
+  <Luxandra_PulseAdultMale.label>慾火精力</Luxandra_PulseAdultMale.label>
+  <Luxandra_PulseAdultMale.description>一股強烈的靈能湧動正在推升繁殖能力與精力。</Luxandra_PulseAdultMale.description>
+
+  <!-- Luxandra_PulseAdultFemale -->
+  <Luxandra_PulseAdultFemale.label>交配壓迫</Luxandra_PulseAdultFemale.label>
+  <Luxandra_PulseAdultFemale.description>一股壓倒性的靈能生物牽引，使排卵進入過載狀態，並讓母性本能急遽高漲。</Luxandra_PulseAdultFemale.description>
+
+  <!-- Luxandra_PulsePregnantMaternal -->
+  <Luxandra_PulsePregnantMaternal.label>繁殖極樂</Luxandra_PulsePregnantMaternal.label>
+  <Luxandra_PulsePregnantMaternal.description>星球本身似乎轉而支持這具承載新生命的容器。此人感受到一種宇宙性的亢奮認可，彷彿自己正在履行真正的演化目的；然而，這份生物性極樂過於強烈，使其陷入深沉恍惚、近似夢境的狀態。</Luxandra_PulsePregnantMaternal.description>
+
+</LanguageData>

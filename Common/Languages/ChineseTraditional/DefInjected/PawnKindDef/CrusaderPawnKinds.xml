@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Crusader pawn kinds -->
+  <Luxandra_Crusader_Conscript.label>不情願的徵召兵</Luxandra_Crusader_Conscript.label>
+  <Luxandra_Crusader_Guard.label>清教衛士</Luxandra_Crusader_Guard.label>
+  <Luxandra_Crusader_WhiteCape.label>白披風狂信者</Luxandra_Crusader_WhiteCape.label>
+  <Luxandra_Crusader_Inquisitor.label>清教審判官</Luxandra_Crusader_Inquisitor.label>
+  <Luxandra_Crusader_Cleanser.label>清教淨化者</Luxandra_Crusader_Cleanser.label>
+  <Luxandra_Crusader_Seer.label>清教先見者</Luxandra_Crusader_Seer.label>
+  <Luxandra_Crusader_Leader.label>至高純淨者</Luxandra_Crusader_Leader.label>
+
+</LanguageData>

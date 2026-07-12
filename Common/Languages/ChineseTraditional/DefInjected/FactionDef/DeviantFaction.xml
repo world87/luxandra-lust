@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Luxandra_DeviantHordeFaction -->
+  <Luxandra_DeviantHordeFaction.label>肉慾墮異群</Luxandra_DeviantHordeFaction.label>
+  <Luxandra_DeviantHordeFaction.description>一支混亂、無法無天，由未經強化的人類組成的集群。他們已徹底拋棄倫理、道德與文明的概念，只依循原始衝動與赤裸需求行動。墮異群不承認法律、不承認財產，也不承認權利。對他們而言，生存與滿足慾望就是唯一的真理；若他們想要一片領土、一份資源，或一條性命，他們便會以純粹的暴力奪取。</Luxandra_DeviantHordeFaction.description>
+  <Luxandra_DeviantHordeFaction.pawnSingular>肉慾墮異者</Luxandra_DeviantHordeFaction.pawnSingular>
+  <Luxandra_DeviantHordeFaction.pawnsPlural>肉慾墮異者</Luxandra_DeviantHordeFaction.pawnsPlural>
+  <Luxandra_DeviantHordeFaction.leaderTitle>肉慾支配者</Luxandra_DeviantHordeFaction.leaderTitle>
+
+</LanguageData>

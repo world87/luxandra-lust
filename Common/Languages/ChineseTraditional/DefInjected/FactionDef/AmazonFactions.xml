@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Luxandra_AmazonTribe -->
+  <Luxandra_AmazonTribe.label>野性亞馬遜隱地</Luxandra_AmazonTribe.label>
+  <Luxandra_AmazonTribe.description>一支高度侵略性、隱藏於暗處的基因改造獵手集群。她們被吞噬一切的掠食本能驅使，將其他聚落視為單純的獵場。儘管她們絕對拒絕穿著衣物，卻揮舞著令人膽寒的星際級竊取武器；那些武器多半是從獵物屍體上剝下來的。</Luxandra_AmazonTribe.description>
+  <Luxandra_AmazonTribe.pawnSingular>亞馬遜人</Luxandra_AmazonTribe.pawnSingular>
+  <Luxandra_AmazonTribe.pawnsPlural>亞馬遜人</Luxandra_AmazonTribe.pawnsPlural>
+  <Luxandra_AmazonTribe.leaderTitle>榮耀女族長</Luxandra_AmazonTribe.leaderTitle>
+
+</LanguageData>

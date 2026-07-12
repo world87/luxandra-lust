@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Luxandra_ColonyPleasureBlessing -->
+  <Luxandra_ColonyPleasureBlessing.label>極樂祝福</Luxandra_ColonyPleasureBlessing.label>
+  <Luxandra_ColonyPleasureBlessing.description>你的行動為露珊卓拉帶來了愉悅。她的神聖恩惠化為精神上的極樂，籠罩整個殖民地。</Luxandra_ColonyPleasureBlessing.description>
+
+  <!-- Luxandra_ParentalFertilityBlessing -->
+  <Luxandra_ParentalFertilityBlessing.label>神聖繁衍者</Luxandra_ParentalFertilityBlessing.label>
+  <Luxandra_ParentalFertilityBlessing.description>這位父母依循她所認可的方式誕下了孩子，因此受到至高繁殖力與智慧的觸碰。</Luxandra_ParentalFertilityBlessing.description>
+
+  <!-- Luxandra_BestialDegradation -->
+  <Luxandra_BestialDegradation.label>獸性降格</Luxandra_BestialDegradation.label>
+  <Luxandra_BestialDegradation.description>一場可怖而不文明的生產發生在你的殖民地邊界內。濃厚的迷霧包裹眾人的心智，將人類認知拖入野獸般的低等極限。</Luxandra_BestialDegradation.description>
+
+  <!-- Luxandra_ColdRevulsion -->
+  <Luxandra_ColdRevulsion.label>冰冷厭惡</Luxandra_ColdRevulsion.label>
+  <Luxandra_ColdRevulsion.description>神聖禁忌遭到打破後，一道麻木的神性阻隔沉入心智。肉慾已徹底化為灰燼，光是想到肉體親密，便只剩空洞的幻痛。</Luxandra_ColdRevulsion.description>
+
+  <!-- Luxandra_WhippingGaze -->
+  <Luxandra_WhippingGaze.label>狂亂壓迫</Luxandra_WhippingGaze.label>
+  <Luxandra_WhippingGaze.description>一股狂怒的化學性靈能壓迫，將荷爾蒙推向絕對的絕望。身體因無法逃避的搔癢而燃燒，迫切要求盡快延續血脈。</Luxandra_WhippingGaze.description>
+
+</LanguageData>

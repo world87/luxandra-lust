@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Misc event moodlets -->
+  <Luxandra_HornyRush_Mood.stages.0.label>慾念奔湧</Luxandra_HornyRush_Mood.stages.0.label>
+  <Luxandra_HornyRush_Mood.stages.0.description>我感受到某種不可思議的東西，彷彿整個世界都與我交合。如此極樂……但現在，我渴望更多……</Luxandra_HornyRush_Mood.stages.0.description>
+
+  <!-- Social opinion: Divine Kiss / Hubristic Glow -->
+  <Luxandra_AdoredSaintOpinion.stages.0.label>受女神親吻</Luxandra_AdoredSaintOpinion.stages.0.label>
+  <Luxandra_AdoredSaintOpinion.stages.1.label>傲慢凡人</Luxandra_AdoredSaintOpinion.stages.1.label>
+
+  <!-- Divine Kiss mood -->
+  <Luxandra_DivineKiss_Mood.stages.0.label>神選容器</Luxandra_DivineKiss_Mood.stages.0.label>
+  <Luxandra_DivineKiss_Mood.stages.0.description>露珊卓拉的恩典流經我的身體。我是她選中的器具，我的人民以純粹而神聖的虔敬仰望著我。</Luxandra_DivineKiss_Mood.stages.0.description>
+
+  <!-- Hubristic Glow mood -->
+  <Luxandra_HubristicGlow_Mood.stages.0.label>遭神明嘲弄</Luxandra_HubristicGlow_Mood.stages.0.label>
+  <Luxandra_HubristicGlow_Mood.stages.0.description>這張無瑕的臉成了一座牢籠。所有人都以純粹的厭惡與嫉妒看著我，低聲議論我自以為是神。他們憎恨的重量令人窒息。</Luxandra_HubristicGlow_Mood.stages.0.description>
+
+  <!-- Insectoid assault mood -->
+  <Luxandra_InsectoidAssaultMood.stages.0.label>昆蟲族惡性強姦</Luxandra_InsectoidAssaultMood.stages.0.label>
+  <Luxandra_InsectoidAssaultMood.stages.0.description>我被困在黏稠的繭裡，接著牠們強姦了我，還在我體內產下了卵。噁心……</Luxandra_InsectoidAssaultMood.stages.0.description>
+
+  <!-- Insectoid assault mood, masochist -->
+  <Luxandra_InsectoidAssaultMoodMasochist.stages.0.label>昆蟲族惡性強姦</Luxandra_InsectoidAssaultMoodMasochist.stages.0.label>
+  <Luxandra_InsectoidAssaultMoodMasochist.stages.0.description>我被困在黏稠的繭裡，接著牠們強姦了我，還在我體內產下了卵。刺激……</Luxandra_InsectoidAssaultMoodMasochist.stages.0.description>
+
+  <!-- Resizing event moodlets -->
+  <Luxandra_MaleExpandedMood.stages.0.label>男性增長</Luxandra_MaleExpandedMood.stages.0.label>
+  <Luxandra_MaleExpandedMood.stages.0.description>我感到下體湧現出不可思議的存在感與原始力量。太壯觀了。我希望它能永遠保持這樣。</Luxandra_MaleExpandedMood.stages.0.description>
+
+  <Luxandra_FemaleExpandedMood.stages.0.label>女性增長</Luxandra_FemaleExpandedMood.stages.0.label>
+  <Luxandra_FemaleExpandedMood.stages.0.description>我的身體變得更加豐滿而沉甸甸……我感覺自己充滿魅力。我希望它能永遠保持這樣。</Luxandra_FemaleExpandedMood.stages.0.description>
+
+  <Luxandra_MaleReducedMood.stages.0.label>男性縮小</Luxandra_MaleReducedMood.stages.0.label>
+  <Luxandra_MaleReducedMood.stages.0.description>它跑去哪了？！我感覺自己變得微不足道……暴露……渺小。我希望它能恢復成原本的樣子……</Luxandra_MaleReducedMood.stages.0.description>
+
+  <Luxandra_FemaleReducedMood.stages.0.label>女性縮小</Luxandra_FemaleReducedMood.stages.0.label>
+  <Luxandra_FemaleReducedMood.stages.0.description>我感覺自己變得好平坦、好輕……我天生的曲線都消退了。希望它們能快點恢復……</Luxandra_FemaleReducedMood.stages.0.description>
+
+  <!-- Busty Curse -->
+  <Luxandra_BustyCurse.stages.0.label>豐胸詛咒</Luxandra_BustyCurse.stages.0.label>
+  <Luxandra_BustyCurse.stages.0.description>我只是希望能摸到巨大的胸部，這不是我預期的結果，但是……我好像還挺喜歡的……</Luxandra_BustyCurse.stages.0.description>
+
+</LanguageData>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Scenario: The Righteous Fugitives -->
+  <Luxandra_RighteousFugitivesStart.label>正義的逃亡者</Luxandra_RighteousFugitivesStart.label>
+  <Luxandra_RighteousFugitivesStart.scenario.name>正義的逃亡者</Luxandra_RighteousFugitivesStart.scenario.name>
+  <Luxandra_RighteousFugitivesStart.scenario.summary>兩名十字軍徵召兵決定放棄戰鬥，逃往遠方求生。</Luxandra_RighteousFugitivesStart.scenario.summary>
+  <Luxandra_RighteousFugitivesStart.scenario.description>你的教團本應是純潔的堡壘，但內部的妥協讓昔日弟兄轉而與你為敵。你們因拒絕屈服而被宣告為異端，只帶著自己的信仰與身上的衣物逃離。你們偷走了能找到的補給，並搭上第一批能啟動的空投艙發射器。祈禱他們不會找到你們吧……在這個劇本中，帝國與十字軍都將永久敵對。由於你以 2 名財富異常偏高的角色開局，這可能會是一個困難劇本。</Luxandra_RighteousFugitivesStart.scenario.description>
+
+</LanguageData>

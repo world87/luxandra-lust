@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Amazon incidents -->
+  <Luxandra_Inc_AmazonStealthAmbush.label>亞馬遜潛伏伏擊</Luxandra_Inc_AmazonStealthAmbush.label>
+  <Luxandra_Inc_StarvingAmazons.label>飢餓亞馬遜突襲</Luxandra_Inc_StarvingAmazons.label>
+  <Luxandra_Inc_AmazonBloodTrial.label>亞馬遜血之試煉</Luxandra_Inc_AmazonBloodTrial.label>
+
+  <!-- Inquisition raid incidents -->
+  <Luxandra_Inc_InquisitionPurgeSappers.label>審判庭烈焰肅清</Luxandra_Inc_InquisitionPurgeSappers.label>
+
+  <!-- Deviant horde incidents -->
+  <Luxandra_Inc_DeviantHordeRaid.label>肉慾暴群</Luxandra_Inc_DeviantHordeRaid.label>
+  <Luxandra_Inc_DeviantHungerSwarm.label>墮異飢餓蟲群</Luxandra_Inc_DeviantHungerSwarm.label>
+
+  <!-- Horny tribal raids -->
+  <Luxandra_Inc_HornyTribalRaid.label>慾火部落襲擊</Luxandra_Inc_HornyTribalRaid.label>
+  <Luxandra_Inc_HornyTribalRaid.letterLabel>慾火襲擊</Luxandra_Inc_HornyTribalRaid.letterLabel>
+  <Luxandra_Inc_HornyTribalRaid.letterText>來自{0}的襲擊者已經抵達！他們的神明渴求你的鮮血……如果可以的話，還有你的屁股！他們的戰吼令人極度不安，卻又不知為何讓你的所有殖民者都感到慾火難耐。準備防禦！</Luxandra_Inc_HornyTribalRaid.letterText>
+
+  <!-- Unleashed bastards raid -->
+  <Luxandra_Inc_UnleashedBastardsRaid.label>強暴犯襲擊</Luxandra_Inc_UnleashedBastardsRaid.label>
+  <Luxandra_Inc_UnleashedBastardsRaid.letterLabel>強暴犯襲擊</Luxandra_Inc_UnleashedBastardsRaid.letterLabel>
+  <Luxandra_Inc_UnleashedBastardsRaid.letterText>來自{0}的襲擊者已經抵達！他們懷著卑劣的意圖……他們是為了盡可能侵犯毫無防備的角色而來。做好準備……</Luxandra_Inc_UnleashedBastardsRaid.letterText>
+</LanguageData>

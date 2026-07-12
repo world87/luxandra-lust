@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Luxandra_PulseChildThought -->
+  <Luxandra_PulseChildThought.stages.0.label>被成年人弄糊塗了</Luxandra_PulseChildThought.stages.0.label>
+  <Luxandra_PulseChildThought.stages.0.description>今天大人們的樣子好奇怪，也有點好笑……到底發生什麼事了？</Luxandra_PulseChildThought.stages.0.description>
+
+  <!-- Luxandra_PulseMaleThought -->
+  <Luxandra_PulseMaleThought.stages.0.label>精力旺盛</Luxandra_PulseMaleThought.stages.0.label>
+  <Luxandra_PulseMaleThought.stages.0.description>我感到一股不可思議的原始能量流過全身。所有女人都該屬於我。</Luxandra_PulseMaleThought.stages.0.description>
+
+  <!-- Luxandra_PulseFemaleThought -->
+  <Luxandra_PulseFemaleThought.stages.0.label>繁殖壓迫</Luxandra_PulseFemaleThought.stages.0.label>
+  <Luxandra_PulseFemaleThought.stages.0.description>我被迫想要尋找伴侶。我的時間正在流逝。我必須找到交配對象。現在。</Luxandra_PulseFemaleThought.stages.0.description>
+
+  <!-- Luxandra_PulsePregnantMaternalThought -->
+  <Luxandra_PulsePregnantMaternalThought.stages.0.label>母性極樂</Luxandra_PulsePregnantMaternalThought.stages.0.label>
+  <Luxandra_PulsePregnantMaternalThought.stages.0.description>世界本身正對我微笑。我是新生命的容器……我的目的無比清晰，而我正在完成它。</Luxandra_PulsePregnantMaternalThought.stages.0.description>
+
+  <!-- Luxandra_PulseMaleSocialThought -->
+  <Luxandra_PulseMaleSocialThought.stages.0.label>令人渴望的女人</Luxandra_PulseMaleSocialThought.stages.0.label>
+
+  <!-- Luxandra_PulseFemaleSocialThought -->
+  <Luxandra_PulseFemaleSocialThought.stages.0.label>潛在交配對象</Luxandra_PulseFemaleSocialThought.stages.0.label>
+
+</LanguageData>

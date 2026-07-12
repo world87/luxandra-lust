@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Amazon pawn kinds -->
+  <Luxandra_Amazon_Fledgling.label>亞馬遜雛牙</Luxandra_Amazon_Fledgling.label>
+  <Luxandra_Amazon_Brawler.label>亞馬遜鬥士</Luxandra_Amazon_Brawler.label>
+  <Luxandra_Amazon_Hunter.label>亞馬遜獵手</Luxandra_Amazon_Hunter.label>
+  <Luxandra_Amazon_Infiltrator.label>亞馬遜滲透者</Luxandra_Amazon_Infiltrator.label>
+  <Luxandra_Amazon_Siren.label>亞馬遜塞壬</Luxandra_Amazon_Siren.label>
+  <Luxandra_Amazon_PackMaster.label>亞馬遜馭群者</Luxandra_Amazon_PackMaster.label>
+  <Luxandra_Amazon_BloodMother.label>血母</Luxandra_Amazon_BloodMother.label>
+
+</LanguageData>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Scenario: Failed Blood Rites -->
+  <Luxandra_AmazonStart.label>失敗的血祭</Luxandra_AmazonStart.label>
+  <Luxandra_AmazonStart.scenario.name>失敗的血祭</Luxandra_AmazonStart.scenario.name>
+  <Luxandra_AmazonStart.scenario.summary>一群未能通過血之試煉，因而遭到放逐的亞馬遜雛牙。</Luxandra_AmazonStart.scenario.summary>
+  <Luxandra_AmazonStart.scenario.description>你們曾被賦予一項任務：摧毀那座前哨站，並帶回他們的男性。敗北從來不是選項；你們必須成功，或者在嘗試中死去，以證明自己配得上部族。然而你們失敗了。部族並不仁慈。她們將你們拋下等死，並承諾若荒野沒能殺死你們，她們會親自回來完成這件事。若想獲得預期體驗，建議安裝 RJW Genes。由於你們開局時赤身裸體，資源也十分有限，這將是一個困難劇本。</Luxandra_AmazonStart.scenario.description>
+
+  <!-- Starting pawns xenotype config -->
+  <Luxandra_AmazonStart.scenario.parts.1.customSummary>以 5 名亞馬遜雛牙開局。</Luxandra_AmazonStart.scenario.parts.1.customSummary>
+  <Luxandra_AmazonStart.scenario.parts.1.xenotypeCounts.0.description>亞馬遜雛牙</Luxandra_AmazonStart.scenario.parts.1.xenotypeCounts.0.description>
+
+</LanguageData>

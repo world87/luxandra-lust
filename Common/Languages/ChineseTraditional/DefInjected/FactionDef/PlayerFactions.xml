@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Player Amazon Tribe -->
+  <Luxandra_PlayerAmazonTribe.label>亞馬遜逃亡者</Luxandra_PlayerAmazonTribe.label>
+  <Luxandra_PlayerAmazonTribe.description>一群正在逃亡的亞馬遜雛牙。</Luxandra_PlayerAmazonTribe.description>
+  <Luxandra_PlayerAmazonTribe.pawnSingular>亞馬遜流放者</Luxandra_PlayerAmazonTribe.pawnSingular>
+  <Luxandra_PlayerAmazonTribe.pawnsPlural>亞馬遜流放者</Luxandra_PlayerAmazonTribe.pawnsPlural>
+
+  <!-- Player Crusader Faction -->
+  <Luxandra_PlayerCrusaderFaction.label>十字軍逃亡者</Luxandra_PlayerCrusaderFaction.label>
+  <Luxandra_PlayerCrusaderFaction.description>一群十字軍逃亡者。</Luxandra_PlayerCrusaderFaction.description>
+  <Luxandra_PlayerCrusaderFaction.pawnSingular>十字軍逃亡者</Luxandra_PlayerCrusaderFaction.pawnSingular>
+  <Luxandra_PlayerCrusaderFaction.pawnsPlural>十字軍逃亡者</Luxandra_PlayerCrusaderFaction.pawnsPlural>
+
+</LanguageData>

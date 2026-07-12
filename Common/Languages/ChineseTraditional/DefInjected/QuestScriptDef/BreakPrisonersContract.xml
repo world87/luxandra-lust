@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Quest description -->
+  <Luxandra_BreakPrisonersContractQuest.questDescriptionRules.rulesStrings.0>questDescription->一名代表[asker_faction_leaderTitle][asker_nameFull]行事的本地代理人，帶著一項敏感安排前來接觸你。他們抓獲了一小群政治煽動者。傳統的肉體審訊無法動搖這些人的決心，但內部規章禁止該派系使用「其他手段」。他們知道你的殖民地在常規倫理邊界之外運作，因此希望將[lodgersCount]名囚犯送往你的設施。你有[durationDays]天時間徹底擊潰他們的心智。只要他們仍然活著，你可以使用手邊任何方法；若能讓他們主動屈服，那就更理想了。若所有倖存囚犯都以崩潰狀態返回，合約便算完成。若你成功徹底粉碎他們的意志，將授權發放額外物資酬載。</Luxandra_BreakPrisonersContractQuest.questDescriptionRules.rulesStrings.0>
+
+  <!-- Quest names -->
+  <Luxandra_BreakPrisonersContractQuest.questNameRules.rulesStrings.0>questName->服從令</Luxandra_BreakPrisonersContractQuest.questNameRules.rulesStrings.0>
+  <Luxandra_BreakPrisonersContractQuest.questNameRules.rulesStrings.1>questName->[$askerFaction]的破碎意志</Luxandra_BreakPrisonersContractQuest.questNameRules.rulesStrings.1>
+  <Luxandra_BreakPrisonersContractQuest.questNameRules.rulesStrings.2>questName->「體面的審訊」</Luxandra_BreakPrisonersContractQuest.questNameRules.rulesStrings.2>
+  <Luxandra_BreakPrisonersContractQuest.questNameRules.rulesStrings.3>questName->[$askerFaction]的黑暗請求</Luxandra_BreakPrisonersContractQuest.questNameRules.rulesStrings.3>
+  <Luxandra_BreakPrisonersContractQuest.questNameRules.rulesStrings.4>questName->為達目的</Luxandra_BreakPrisonersContractQuest.questNameRules.rulesStrings.4>
+
+  <!-- Prisoners arrived -->
+  <Luxandra_BreakPrisonersContractQuest.root.nodes.11.label>囚犯已抵達</Luxandra_BreakPrisonersContractQuest.root.nodes.11.label>
+  <Luxandra_BreakPrisonersContractQuest.root.nodes.11.text>裝有囚犯的空投艙已經著陸。將他們妥善拘押，並開始執行協議。</Luxandra_BreakPrisonersContractQuest.root.nodes.11.text>
+
+  <!-- Shuttle arrived -->
+  <Luxandra_BreakPrisonersContractQuest.root.nodes.12.node.nodes.2.label>接駁艇已抵達</Luxandra_BreakPrisonersContractQuest.root.nodes.12.node.nodes.2.label>
+  <Luxandra_BreakPrisonersContractQuest.root.nodes.12.node.nodes.2.text>接駁艇已經抵達，準備接走囚犯。請務必在它離開前將這些人裝載上船：\n\n[lodgers]</Luxandra_BreakPrisonersContractQuest.root.nodes.12.node.nodes.2.text>
+
+  <!-- Baseline success -->
+  <Luxandra_BreakPrisonersContractQuest.root.nodes.15.node.nodes.1.node.nodes.1.label>俘虜移交完成</Luxandra_BreakPrisonersContractQuest.root.nodes.15.node.nodes.1.node.nodes.1.label>
+  <Luxandra_BreakPrisonersContractQuest.root.nodes.15.node.nodes.1.node.nodes.1.text>接駁艇已成功載著俘虜離開！委託人對他們達到基準程度的心理瓦解感到滿意。</Luxandra_BreakPrisonersContractQuest.root.nodes.15.node.nodes.1.node.nodes.1.text>
+
+  <!-- Perfect score bonus drop pod -->
+  <Luxandra_BreakPrisonersContractQuest.root.nodes.15.node.nodes.2.node.nodes.3.customLetterLabel>完美評分獎金</Luxandra_BreakPrisonersContractQuest.root.nodes.15.node.nodes.2.node.nodes.3.customLetterLabel>
+  <Luxandra_BreakPrisonersContractQuest.root.nodes.15.node.nodes.2.node.nodes.3.customLetterText>委託人對俘虜的崩潰狀態印象深刻，因此直接向你的儲存區投放了一批額外白銀！</Luxandra_BreakPrisonersContractQuest.root.nodes.15.node.nodes.2.node.nodes.3.customLetterText>
+
+  <!-- Perfect success -->
+  <Luxandra_BreakPrisonersContractQuest.root.nodes.15.node.nodes.2.node.nodes.4.label>無瑕合約完成</Luxandra_BreakPrisonersContractQuest.root.nodes.15.node.nodes.2.node.nodes.4.label>
+  <Luxandra_BreakPrisonersContractQuest.root.nodes.15.node.nodes.2.node.nodes.4.text>令人難以置信！每一名囚犯都以徹底空洞的狀態返回。委託人欣喜若狂，已授權發放你的標準報酬，以及一份額外物資酬載！</Luxandra_BreakPrisonersContractQuest.root.nodes.15.node.nodes.2.node.nodes.4.text>
+
+  <!-- Shuttle unsatisfied -->
+  <Luxandra_BreakPrisonersContractQuest.root.nodes.16.node.nodes.0.label>撤離任務失敗</Luxandra_BreakPrisonersContractQuest.root.nodes.16.node.nodes.0.label>
+  <Luxandra_BreakPrisonersContractQuest.root.nodes.16.node.nodes.0.text>接駁艇在未裝載所有指定俘虜的情況下離開。撤離任務已失敗。</Luxandra_BreakPrisonersContractQuest.root.nodes.16.node.nodes.0.text>
+
+  <!-- Compliance failed -->
+  <Luxandra_BreakPrisonersContractQuest.root.nodes.17.node.nodes.0.label>合約失敗</Luxandra_BreakPrisonersContractQuest.root.nodes.17.node.nodes.0.label>
+  <Luxandra_BreakPrisonersContractQuest.root.nodes.17.node.nodes.0.text>接駁艇已將囚犯接回。經醫療審查後，委託人指出一名或多名對象仍保留著原本的反抗火花。報酬將被扣留。</Luxandra_BreakPrisonersContractQuest.root.nodes.17.node.nodes.0.text>
+
+  <!-- Lodger died -->
+  <Luxandra_BreakPrisonersContractQuest.root.nodes.18.node.nodes.0.label>囚犯死亡：{SUBJECT_definite}</Luxandra_BreakPrisonersContractQuest.root.nodes.18.node.nodes.0.label>
+  <Luxandra_BreakPrisonersContractQuest.root.nodes.18.node.nodes.0.text>其中一名囚犯已經死亡。你原本應該摧毀他們的意志，而不是殺死他們。合約已取消，剩下的囚犯任你處置。</Luxandra_BreakPrisonersContractQuest.root.nodes.18.node.nodes.0.text>
+
+  <!-- Lodger arrested -->
+  <Luxandra_BreakPrisonersContractQuest.root.nodes.19.node.nodes.0.label>囚犯被逮捕：{SUBJECT_definite}</Luxandra_BreakPrisonersContractQuest.root.nodes.19.node.nodes.0.label>
+  <Luxandra_BreakPrisonersContractQuest.root.nodes.19.node.nodes.0.text>其中一名你受託擊潰意志的囚犯遭到逮捕。合約已取消，剩下的囚犯任你處置。</Luxandra_BreakPrisonersContractQuest.root.nodes.19.node.nodes.0.text>
+
+  <!-- Lodger recruited -->
+  <Luxandra_BreakPrisonersContractQuest.root.nodes.20.node.nodes.0.label>囚犯已被招募：{SUBJECT_definite}</Luxandra_BreakPrisonersContractQuest.root.nodes.20.node.nodes.0.label>
+  <Luxandra_BreakPrisonersContractQuest.root.nodes.20.node.nodes.0.text>你已招募{SUBJECT_definite}，而此人原本是你受託擊潰意志的對象。合約已取消，剩下的囚犯任你處置。</Luxandra_BreakPrisonersContractQuest.root.nodes.20.node.nodes.0.text>
+
+  <!-- Lodger enslaved -->
+  <Luxandra_BreakPrisonersContractQuest.root.nodes.21.node.nodes.0.label>囚犯已被奴役：{SUBJECT_definite}</Luxandra_BreakPrisonersContractQuest.root.nodes.21.node.nodes.0.label>
+  <Luxandra_BreakPrisonersContractQuest.root.nodes.21.node.nodes.0.text>你已奴役{SUBJECT_definite}，而此人原本是你受託擊潰意志的對象。合約已取消，剩下的囚犯任你處置。</Luxandra_BreakPrisonersContractQuest.root.nodes.21.node.nodes.0.text>
+
+  <!-- Lodger left map -->
+  <Luxandra_BreakPrisonersContractQuest.root.nodes.22.node.nodes.0.label>囚犯遺失：{SUBJECT_definite}</Luxandra_BreakPrisonersContractQuest.root.nodes.22.node.nodes.0.label>
+  <Luxandra_BreakPrisonersContractQuest.root.nodes.22.node.nodes.0.text>其中一名你受託擊潰意志的囚犯已經消失。合約已取消，剩下的囚犯任你處置。</Luxandra_BreakPrisonersContractQuest.root.nodes.22.node.nodes.0.text>
+
+  <!-- Lodger left behind -->
+  <Luxandra_BreakPrisonersContractQuest.root.nodes.23.node.nodes.0.label>囚犯遺失：{SUBJECT_definite}</Luxandra_BreakPrisonersContractQuest.root.nodes.23.node.nodes.0.label>
+  <Luxandra_BreakPrisonersContractQuest.root.nodes.23.node.nodes.0.text>其中一名你受託擊潰意志的囚犯已經消失。合約已取消，剩下的囚犯任你處置。</Luxandra_BreakPrisonersContractQuest.root.nodes.23.node.nodes.0.text>
+
+  <!-- Lodger ran wild -->
+  <Luxandra_BreakPrisonersContractQuest.root.nodes.24.node.nodes.0.label>囚犯遺失：{SUBJECT_definite}</Luxandra_BreakPrisonersContractQuest.root.nodes.24.node.nodes.0.label>
+  <Luxandra_BreakPrisonersContractQuest.root.nodes.24.node.nodes.0.text>其中一名你受託擊潰意志的囚犯已經野化逃逸。合約已取消，剩下的囚犯任你處置。</Luxandra_BreakPrisonersContractQuest.root.nodes.24.node.nodes.0.text>
+
+  <!-- Lodger joined other faction -->
+  <Luxandra_BreakPrisonersContractQuest.root.nodes.25.node.node.nodes.0.label>囚犯遺失：{SUBJECT_definite}</Luxandra_BreakPrisonersContractQuest.root.nodes.25.node.node.nodes.0.label>
+  <Luxandra_BreakPrisonersContractQuest.root.nodes.25.node.node.nodes.0.text>其中一名你受託擊潰意志的囚犯已加入其他派系。合約已取消，剩下的囚犯任你處置。</Luxandra_BreakPrisonersContractQuest.root.nodes.25.node.node.nodes.0.text>
+
+  <!-- Shuttle destroyed -->
+  <Luxandra_BreakPrisonersContractQuest.root.nodes.26.node.nodes.0.label>接駁艇被摧毀</Luxandra_BreakPrisonersContractQuest.root.nodes.26.node.nodes.0.label>
+  <Luxandra_BreakPrisonersContractQuest.root.nodes.26.node.nodes.0.text>派來接走囚犯的接駁艇已被摧毀。所有囚犯現在都會徒步離開，並祈禱路上的野獸別殺了他們。</Luxandra_BreakPrisonersContractQuest.root.nodes.26.node.nodes.0.text>
+
+  <!-- Shuttle left behind -->
+  <Luxandra_BreakPrisonersContractQuest.root.nodes.27.node.nodes.0.label>接駁艇遭遺棄</Luxandra_BreakPrisonersContractQuest.root.nodes.27.node.nodes.0.label>
+  <Luxandra_BreakPrisonersContractQuest.root.nodes.27.node.nodes.0.text>派來接走囚犯的接駁艇遭到遺棄。所有囚犯現在都會徒步離開，並祈禱路上的野獸別殺了他們。</Luxandra_BreakPrisonersContractQuest.root.nodes.27.node.nodes.0.text>
+
+</LanguageData>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Settings sentences -->
+  <Luxandra_UI_ToggleEvents_Label>切換露珊卓拉敘事者的啟用事件。（懸停查看詳細資訊）</Luxandra_UI_ToggleEvents_Label>
+  <Luxandra_UI_ToggleEvents_Tooltip>除非透過開發者模式強制觸發，否則此模組的事件將被完全停用。其他模組的事件將無法被露珊卓拉的特殊事件池抽中，但仍可能出現在一般隨機敘事者事件中。</Luxandra_UI_ToggleEvents_Tooltip>
+  <Luxandra_UI_DatabaseLoading_Label>事件資料庫仍在載入中。請幾分鐘後再查看。</Luxandra_UI_DatabaseLoading_Label>
+
+  <!-- Base Events Descriptions -->
+  <Luxandra_Inc_HornyRushFemale_Desc>使女性殖民者的速度與性慾大幅上升。</Luxandra_Inc_HornyRushFemale_Desc>
+  <Luxandra_Inc_HornyRushMale_Desc>使男性殖民者的速度與性慾大幅上升。</Luxandra_Inc_HornyRushMale_Desc>
+  <Luxandra_Inc_WhiteRain_Desc>很溫暖。很黏。今天最好不要出門。</Luxandra_Inc_WhiteRain_Desc>
+  <Luxandra_Inc_LustfulFertilityPulse_Desc>一種持續時間較長的狀態，會大幅提高地圖上所有人類的生育力與性慾。</Luxandra_Inc_LustfulFertilityPulse_Desc>
+  <Luxandra_Inc_FertilityPulseSite_Desc>遠端發射器會在你的地圖上引發繁殖脈衝，直到你將其停用。</Luxandra_Inc_FertilityPulseSite_Desc>
+  <Luxandra_Inc_FertilityPulseMechCluster_Desc>機械族集群會在你的地圖上引發繁殖脈衝，直到你將其摧毀。</Luxandra_Inc_FertilityPulseMechCluster_Desc>
+  <Luxandra_Inc_WetDreamsPulse_Desc>一種持續時間中等的狀態，會偶爾以令人愉悅的方式喚醒你的殖民者。</Luxandra_Inc_WetDreamsPulse_Desc>
+  <Luxandra_Inc_WetDreamsPulseSite_Desc>遠端發射器會在你的地圖上引發春夢脈衝，直到你將其停用。</Luxandra_Inc_WetDreamsPulseSite_Desc>
+  <Luxandra_Inc_WetDreamsPulseMechCluster_Desc>機械族集群會在你的地圖上引發春夢脈衝，直到你將其摧毀。</Luxandra_Inc_WetDreamsPulseMechCluster_Desc>
+  <Luxandra_Inc_RapistBreak_Desc>一名或多名角色會陷入隨機強姦的精神崩潰。</Luxandra_Inc_RapistBreak_Desc>
+  <Luxandra_Inc_HornyTribalRaid_Desc>一場速度與性慾都被提高的部落襲擊。</Luxandra_Inc_HornyTribalRaid_Desc>
+  <Luxandra_Inc_DeviantHordeRaid_Desc>一支肉慾墮異群會在白濁雨的支援下抵達，造成混亂。</Luxandra_Inc_DeviantHordeRaid_Desc>
+  <Luxandra_Inc_DeviantHungerSwarm_Desc>一群飢餓的墮異者正接近你的殖民地，尋找食物。</Luxandra_Inc_DeviantHungerSwarm_Desc>
+  <Luxandra_Inc_AmazonStealthAmbush_Desc>一支亞馬遜菁英刺殺小隊試圖殺死你最有價值的角色……或男性。</Luxandra_Inc_AmazonStealthAmbush_Desc>
+  <Luxandra_Inc_AmazonBloodTrial_Desc>年輕亞馬遜被派出執行試煉，以證明自己的價值。她們會取下你的首級，或者死在嘗試之中。</Luxandra_Inc_AmazonBloodTrial_Desc>
+  <Luxandra_Inc_StarvingAmazons_Desc>一支規模可觀的飢餓亞馬遜襲擊殖民地，尋找補給。</Luxandra_Inc_StarvingAmazons_Desc>
+  <Luxandra_Inc_TheMilkGame_Desc>一份牛奶的贈禮，但有人會為了那些剛被餵飽的牲畜而來……</Luxandra_Inc_TheMilkGame_Desc>
+  <Luxandra_Inc_AphrodisiacFever_Desc>一種只能透過性行為治癒的疾病。</Luxandra_Inc_AphrodisiacFever_Desc>
+  <Luxandra_Inc_MaleExpansion_Desc>男性殖民者的下體會暫時增長。</Luxandra_Inc_MaleExpansion_Desc>
+  <Luxandra_Inc_FemaleExpansion_Desc>女性殖民者的胸部會暫時增長。</Luxandra_Inc_FemaleExpansion_Desc>
+  <Luxandra_Inc_MaleReduction_Desc>男性殖民者的下體會暫時縮小。</Luxandra_Inc_MaleReduction_Desc>
+  <Luxandra_Inc_FemaleReduction_Desc>女性殖民者的胸部會暫時縮小。</Luxandra_Inc_FemaleReduction_Desc>
+  <Luxandra_Inc_LustfulSupplies_Desc>為你那些更特殊的需求送來一批補給。</Luxandra_Inc_LustfulSupplies_Desc>
+  <Luxandra_Inc_ThrallPodCrash_Desc>一名性奴隸會墜落在你的基地中。</Luxandra_Inc_ThrallPodCrash_Desc>
+  <Luxandra_Inc_BustyCurse_Desc>你的一名角色想摸奶子。露珊卓拉聽見了，並決定用自己的方式實現願望……</Luxandra_Inc_BustyCurse_Desc>
+  <Luxandra_Inc_BreakPrisonersContractQuest_Desc>一項要求你「擊潰」數名囚犯的委託。</Luxandra_Inc_BreakPrisonersContractQuest_Desc>
+  <Luxandra_Inc_ForbiddenLove_Desc>一對近親發展出了禁忌關係。</Luxandra_Inc_ForbiddenLove_Desc>
+  <Luxandra_Inc_DivineConception_Desc>一名女性突然被發現懷孕。父親是誰？</Luxandra_Inc_DivineConception_Desc>
+  <Luxandra_Inc_ForbiddenConception_Desc>一名女性突然被發現懷孕。而父親看起來並不像人類。</Luxandra_Inc_ForbiddenConception_Desc>
+  <Luxandra_Inc_WetDreamIncident_Desc>一名角色會做一場絕妙的夢。</Luxandra_Inc_WetDreamIncident_Desc>
+  <Luxandra_Inc_StripQuake_Desc>一場強烈震動會震掉地圖上所有角色的衣物。</Luxandra_Inc_StripQuake_Desc>
+  <Luxandra_Inc_CumMeteor_Desc>字面意思。一場真正的「精」下流星雨。他們完全沒料到這會從天而降。</Luxandra_Inc_CumMeteor_Desc>
+
+  <!-- DLC/Modded Event Descriptions -->
+  <Luxandra_Inc_RoyalLuxury_Desc>你的皇室殖民者會變得美麗且受人喜愛。</Luxandra_Inc_RoyalLuxury_Desc>
+  <Luxandra_Inc_RoyalDepravity_Desc>你的皇室殖民者會變得美麗，卻遭人憎恨，並陷入強姦狂熱。</Luxandra_Inc_RoyalDepravity_Desc>
+  <Luxandra_Inc_InquisitionPurgeSappers_Desc>一群十字軍把「燒死異教徒」這句口號理解得非常字面。</Luxandra_Inc_InquisitionPurgeSappers_Desc>
+  <Luxandra_Inc_IdeoLeaderBlessing_Desc>你的理念領袖會變得美麗且受人喜愛。</Luxandra_Inc_IdeoLeaderBlessing_Desc>
+  <Luxandra_Inc_IdeoLeaderDepravity_Desc>你的理念領袖會變得美麗，卻遭人憎恨，並陷入侵犯狂熱。</Luxandra_Inc_IdeoLeaderDepravity_Desc>
+  <Luxandra_Inc_IntimateInfestation_Desc>昆蟲族會襲擊一名角色，並試圖將其作為卵床。</Luxandra_Inc_IntimateInfestation_Desc>
+  <Luxandra_Inc_UnleashedBastardsRaid_Desc>一場更強大的襲擊，敵人會更容易試圖強姦你的殖民者。</Luxandra_Inc_UnleashedBastardsRaid_Desc>
+
+</LanguageData>

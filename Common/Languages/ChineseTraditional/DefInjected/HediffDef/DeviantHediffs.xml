@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Luxandra_DeviantStupor -->
+  <Luxandra_DeviantStupor.label>淫慾昏沉</Luxandra_DeviantStupor.label>
+  <Luxandra_DeviantStupor.description>一團遮蔽心智的靈能迷霧。它會逐漸累積，直到受害者陷入無力反抗的昏迷。</Luxandra_DeviantStupor.description>
+  <Luxandra_DeviantStupor.stages.0.label>恍惚</Luxandra_DeviantStupor.stages.0.label>
+  <Luxandra_DeviantStupor.stages.1.label>意識朦朧</Luxandra_DeviantStupor.stages.1.label>
+  <Luxandra_DeviantStupor.stages.2.label>麻醉性昏沉</Luxandra_DeviantStupor.stages.2.label>
+
+  <!-- Luxandra_EnthrallingTouch -->
+  <Luxandra_EnthrallingTouch.label>魅惑之觸</Luxandra_EnthrallingTouch.label>
+  <Luxandra_EnthrallingTouch.description>一種為削弱獵物而演化出的毒性接觸，使他們能在獵物仍活著時加以利用。這種溫熱毒素也有次要作用，能溫暖墮異者的身體，提高抗寒能力與疼痛耐受性。</Luxandra_EnthrallingTouch.description>
+  <Luxandra_EnthrallingTouch.comps.0.tools.0.label>血肉撫觸</Luxandra_EnthrallingTouch.comps.0.tools.0.label>
+
+</LanguageData>

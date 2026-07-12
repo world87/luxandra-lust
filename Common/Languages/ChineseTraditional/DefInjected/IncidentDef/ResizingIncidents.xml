@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Male expansion -->
+  <Luxandra_Inc_MaleExpansion.label>男性增長</Luxandra_Inc_MaleExpansion.label>
+  <Luxandra_Inc_MaleExpansion.letterLabel>男性增長</Luxandra_Inc_MaleExpansion.letterLabel>
+  <Luxandra_Inc_MaleExpansion.letterText>一股奇異而溫熱的大氣波動掠過此地。地圖上每名成年男性都感到一陣強烈的脈動感，隨後他們的下體突然膨大了！</Luxandra_Inc_MaleExpansion.letterText>
+
+  <!-- Male reduction -->
+  <Luxandra_Inc_MaleReduction.label>男性縮小</Luxandra_Inc_MaleReduction.label>
+  <Luxandra_Inc_MaleReduction.letterLabel>男性縮小</Luxandra_Inc_MaleReduction.letterLabel>
+  <Luxandra_Inc_MaleReduction.letterText>一陣寒冷微風掃過聚落。令他們驚恐萬分的是，地圖上每名成年男性的下體都突然永久縮小了！</Luxandra_Inc_MaleReduction.letterText>
+
+  <!-- Female expansion -->
+  <Luxandra_Inc_FemaleExpansion.label>女性增長</Luxandra_Inc_FemaleExpansion.label>
+  <Luxandra_Inc_FemaleExpansion.letterLabel>女性增長</Luxandra_Inc_FemaleExpansion.letterLabel>
+  <Luxandra_Inc_FemaleExpansion.letterText>一股令人興奮的靈氣籠罩了這片區域。在場每名成年女性都感覺衣物變得令人不適地緊繃，因為她們的胸圍突然膨脹了！</Luxandra_Inc_FemaleExpansion.letterText>
+
+  <!-- Female reduction -->
+  <Luxandra_Inc_FemaleReduction.label>女性縮小</Luxandra_Inc_FemaleReduction.label>
+  <Luxandra_Inc_FemaleReduction.letterLabel>女性縮小</Luxandra_Inc_FemaleReduction.letterLabel>
+  <Luxandra_Inc_FemaleReduction.letterText>一股突如其來的疲憊浪潮掠過殖民地。每名成年女性都注意到一種古怪的身體變化，她們的曲線明顯縮減了。</Luxandra_Inc_FemaleReduction.letterText>
+
+</LanguageData>

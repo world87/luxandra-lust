@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Luxandra_TributePedestal -->
+  <Luxandra_TributePedestal.label>露珊卓拉的供品基座</Luxandra_TributePedestal.label>
+  <Luxandra_TributePedestal.description>一座專門用來盛放私密體液，並將其獻給露珊卓拉的儲存基座。將它建造在她的紀念碑旁，即可獻上精液以換取更強大的祝福。</Luxandra_TributePedestal.description>
+
+  <!-- CompProperties_Refuelable -->
+  <Luxandra_TributePedestal.comps.0.fuelLabel>精液儲量</Luxandra_TributePedestal.comps.0.fuelLabel>
+  <Luxandra_TributePedestal.comps.0.outOfFuelMessage>需要私密體液</Luxandra_TributePedestal.comps.0.outOfFuelMessage>
+
+</LanguageData>

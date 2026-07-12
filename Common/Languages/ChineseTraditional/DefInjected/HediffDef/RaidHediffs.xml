@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Luxandra_BloodTrialFrenzy -->
+  <Luxandra_BloodTrialFrenzy.label>血之試煉狂熱</Luxandra_BloodTrialFrenzy.label>
+  <Luxandra_BloodTrialFrenzy.description>一種強烈的腎上腺素狀態。參與儀式性血之試煉的入門者會無視疼痛與身體疲勞，直到達成目標，或是在嘗試中死去。</Luxandra_BloodTrialFrenzy.description>
+  
+  <!-- Luxandra_PrimalFeralStarvation -->
+  <Luxandra_PrimalFeralStarvation.label>野性絕飢</Luxandra_PrimalFeralStarvation.label>
+  <Luxandra_PrimalFeralStarvation.description>嚴重群體飢餓所觸發的腎上腺素狀態。這名人類只依靠動物性的衝動行動，為了確保下一餐到手，移動速度明顯快於平常。</Luxandra_PrimalFeralStarvation.description>
+  
+  <!-- Rapist rage -->
+  <Luxandra_RapistRage.label>強姦狂亂</Luxandra_RapistRage.label>
+  <Luxandra_RapistRage.description>一種化學誘發的狂亂狀態，會大幅推升肉慾衝動。</Luxandra_RapistRage.description>
+
+</LanguageData>
