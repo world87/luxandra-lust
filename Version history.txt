@@ -1,9 +1,12 @@
-0.16 - in progress
+0.15.2 - 12/07/2026
+- Corrected the sex check so it only looks at colonists' sex acts rather than any humanoid on the map. (This should fix some modded visitors accidentally triggering Kinks)
+- Corrected a couple oversight with Crusader raids that caused the generation of the raid to fail at low wealth or without Anomaly
+- 
 
 0.15.1 - 11/07/2026
 - Small fix to a issue that was breaking the worksite incidents when using a gravship
 - Updated the Deviant Horde raids, regular raids can now only show up at lower wealth levels
-- Added a cap (100ish) to the amount of deviants that spawn on the Deviant Horde events so they stop raping your CPU instead of your pawns. Instead of increasing pawn count, the conditions coming with the event will be harsher at higher wealths.
+- Added a cap (100ish) to the amount of deviants that spawn on the Deviant Horde events so they stop raping your CPU instead of your pawns. Instead of increasing pawn count, the conditions coming with the event will be harsher at higher wealths
 - Added a 4th scenario
 
 

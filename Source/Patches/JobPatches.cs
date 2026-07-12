@@ -28,9 +28,10 @@ namespace LuxandraLust
 
                 Pawn actor = props.pawn;
 
-                if (!actor.RaceProps.Humanlike)
+                if (!actor.RaceProps.Humanlike || !actor.IsPlayerControlled)
                     return;
 
+                // And a second check (Might not be necessary, TODO verify)
                 bool isPlayerControlled = actor.Faction == Faction.OfPlayer ||    // Colonists & Mechs
                                           actor.IsPrisonerOfColony ||             // Prisoners
                                           actor.IsSlaveOfColony ||                // Slaves
