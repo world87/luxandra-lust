@@ -1,7 +1,7 @@
 0.15.2 - 12/07/2026
 - Corrected the sex check so it only looks at colonists' sex acts rather than any humanoid on the map. (This should fix some modded visitors accidentally triggering Kinks)
 - Corrected a couple oversight with Crusader raids that caused the generation of the raid to fail at low wealth or without Anomaly
-- 
+- Corrected a oversight in the scenario defs that was causing load errors if loading the game without Odyssey
 
 0.15.1 - 11/07/2026
 - Small fix to a issue that was breaking the worksite incidents when using a gravship

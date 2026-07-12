@@ -12,7 +12,7 @@ Defeat was not an option, you had to succeed or die trying, to prove that you we
 And yet you failed. The tribe was not kind. They left you to die, promising that if the wilderness won't kill you, they themselves will come back to finish you off.
 
 RJW Genes is recommended for the intended experience.
-Since you start naked with few resources, this is a difficult scenario.</description>
+Since you start naked with few resources, this is a difficult scenario.			</description>
 			<playerFaction>
 				<def>PlayerFaction</def>
 				<factionDef>Luxandra_PlayerAmazonTribe</factionDef>
@@ -31,46 +31,26 @@ Since you start naked with few resources, this is a difficult scenario.</descrip
 				</connections>
 			</surfaceLayer>
 			<parts>
-				<li Class="ScenPart_PlanetLayer">
-					<def>PlanetLayer</def>
-					<layer>Orbit</layer>
-					<settingsDef>Orbit</settingsDef>
-					<hide>True</hide>
-					<tag>Orbit</tag>
-					<connections>
+				<li Class="ScenPart_ConfigPage_ConfigureStartingPawns_Xenotypes">
+					<def>ConfigurePawnsXenotypes</def>
+					<pawnChoiceCount>8</pawnChoiceCount>
+					<customSummary>Start with 5 Amazon fledgelings.</customSummary>
+					<overrideKinds>
 						<li>
-							<tag>Surface</tag>
-							<zoomMode>ZoomIn</zoomMode>
+							<xenotype>Luxandra_Amazoness</xenotype>
+							<pawnKind>Luxandra_Amazon_Fledgling</pawnKind>
 						</li>
-					</connections>
+					</overrideKinds>
+					<xenotypeCounts>
+						<li>
+							<xenotype>Luxandra_Amazoness</xenotype>
+							<count>5</count>
+							<description>Amazon fledgelings</description>
+							<requiredAtStart>true</requiredAtStart>
+							<allowedDevelopmentalStages>Adult</allowedDevelopmentalStages>
+						</li>
+					</xenotypeCounts>
 				</li>
-        
-        <!-- Config pages -->
-        <li Class="ScenPart_ConfigPage_ConfigureStartingPawns_Xenotypes">
-          <def>ConfigurePawnsXenotypes</def>
-          <pawnChoiceCount>8</pawnChoiceCount>
-          <customSummary>Start with 5 Amazon fledgelings.</customSummary>
-          <overrideKinds>
-            <li>
-              <xenotype>Luxandra_Amazoness</xenotype>
-              <pawnKind>Luxandra_Amazon_Fledgling</pawnKind>
-            </li>
-          </overrideKinds>
-          <xenotypeCounts>
-            <li>
-              <xenotype>Luxandra_Amazoness</xenotype>
-              <count>5</count>
-              <description>Amazon fledgelings</description>
-              <requiredAtStart>true</requiredAtStart>
-              <allowedDevelopmentalStages>Adult</allowedDevelopmentalStages>
-            </li>
-          </xenotypeCounts>
-        </li>
-				<!-- <li Class="ScenPart_ConfigPage_ConfigureStartingPawns"> -->
-					<!-- <def>ConfigPage_ConfigureStartingPawns</def> -->
-					<!-- <pawnChoiceCount>8</pawnChoiceCount> -->
-					<!-- <pawnCount>5</pawnCount> -->
-				<!-- </li> -->
 				<li Class="ScenPart_PlayerPawnsArriveMethod">
 					<def>PlayerPawnsArriveMethod</def>
 				</li>

@@ -3,115 +3,102 @@
 	<ScenarioDef MayRequire="Ludeon.RimWorld.Royalty">
 		<defName>Luxandra_RighteousFugitivesStart</defName>
 		<label>The Righteous Fugitives</label>
-<scenario>
-		<name>The Righteous Fugitives</name>
-		<summary>Two Crusader conscripts decided to abandon the fight and seek to live away.</summary>
-		<description>Your order was supposed to be a bastion of purity, but compromise from within turned your brothers against you. Declared heretics for refusing to bend, you fled with nothing but your faith and the clothes on your back.
+		<scenario>
+			<name>The Righteous Fugitives</name>
+			<summary>Two Crusader conscripts decided to abandon the fight and seek to live away.</summary>
+			<description>Your order was supposed to be a bastion of purity, but compromise from within turned your brothers against you. Declared heretics for refusing to bend, you fled with nothing but your faith and the clothes on your back.
 
 You stole what supplies you could find and jumped on the first available drop pod launchers you could find. Pray they do not find you...
 
 In this scenario, both the Empire and Crusaders are permanently hostile.
-Since you start with 2 pawns with abnormally high wealth, this can be a difficult scenario.</description>
+Since you start with 2 pawns with abnormally high wealth, this can be a difficult scenario.			</description>
 			<playerFaction>
 				<def>PlayerFaction</def>
 				<factionDef>Luxandra_PlayerCrusaderFaction</factionDef>
 			</playerFaction>
 			<surfaceLayer>
-			<def>SurfaceLayerFixed</def>
-			<layer>Surface</layer>
-			<settingsDef>Surface</settingsDef>
-			<hide>True</hide>
-			<tag>Surface</tag>
-			<connections>
-				<li>
-					<tag>Orbit</tag>
-					<zoomMode>ZoomOut</zoomMode>
-				</li>
-			</connections>
-		</surfaceLayer>
-		<parts>
-			<li Class="ScenPart_PlanetLayer">
-				<def>PlanetLayer</def>
-				<layer>Orbit</layer>
-				<settingsDef>Orbit</settingsDef>
+				<def>SurfaceLayerFixed</def>
+				<layer>Surface</layer>
+				<settingsDef>Surface</settingsDef>
 				<hide>True</hide>
-				<tag>Orbit</tag>
+				<tag>Surface</tag>
 				<connections>
 					<li>
-						<tag>Surface</tag>
-						<zoomMode>ZoomIn</zoomMode>
+						<tag>Orbit</tag>
+						<zoomMode>ZoomOut</zoomMode>
 					</li>
 				</connections>
-			</li>
-			<li Class="ScenPart_ConfigPage_ConfigureStartingPawns">
-				<def>ConfigPage_ConfigureStartingPawns</def>
-				<pawnChoiceCount>4</pawnChoiceCount>
-				<pawnCount>2</pawnCount>
-			</li>
-			<li Class="ScenPart_PlayerPawnsArriveMethod">
-				<def>PlayerPawnsArriveMethod</def>
-				<method>DropPods</method>
-			</li>
-			<li Class="ScenPart_StartingThing_Defined">
-				<def>StartingThing_Defined</def>
-				<thingDef>Silver</thingDef>
-				<count>4000</count>
-			</li>
-			<li Class="ScenPart_StartingThing_Defined">
-				<def>StartingThing_Defined</def>
-				<thingDef>Gold</thingDef>
-				<count>50</count>
-			</li>
-			<li Class="ScenPart_StartingThing_Defined">
-				<def>StartingThing_Defined</def>
-				<thingDef>MealSurvivalPack</thingDef>
-				<count>50</count>
-			</li>
-			<li Class="ScenPart_StartingThing_Defined">
-				<def>StartingThing_Defined</def>
-				<thingDef>MedicineIndustrial</thingDef>
-				<count>30</count>
-			</li>
-			<li Class="ScenPart_StartingThing_Defined">
-				<def>StartingThing_Defined</def>
-				<thingDef>ComponentIndustrial</thingDef>
-				<count>30</count>
-			</li>
-			<li Class="ScenPart_ScatterThingsNearPlayerStart">
-				<def>ScatterThingsNearPlayerStart</def>
-				<thingDef>Steel</thingDef>
-				<count>450</count>
-				<allowRoofed>True</allowRoofed>
-			</li>
-			<li Class="ScenPart_ScatterThingsNearPlayerStart">
-				<def>ScatterThingsNearPlayerStart</def>
-				<thingDef>WoodLog</thingDef>
-				<count>300</count>
-				<allowRoofed>True</allowRoofed>
-			</li>
-			<li Class="ScenPart_StartingThing_Defined">
-				<def>StartingThing_Defined</def>
-				<thingDef>PsychicAmplifier</thingDef>
-				<count>2</count>
-			</li>
-			<li Class="ScenPart_CreateIncident">
-				<def>CreateIncident</def>
-				<incident>Luxandra_Inc_InquisitionPurgeSappers</incident>
-				<intervalDays>24.2450981</intervalDays>
-				<minDays>25</minDays>
-				<maxDays>30</maxDays>
-			</li>
-			<li Class="ScenPart_StartingResearch">
-				<def>StartingResearch</def>
-				<project>NobleApparel</project>
-			</li>
-			<li Class="ScenPart_ScatterThingsAnywhere">
-				<def>ScatterThingsAnywhere</def>
-				<thingDef>ComponentIndustrial</thingDef>
-				<count>45</count>
-				<allowRoofed>True</allowRoofed>
-			</li>
-		</parts>
-	</scenario>
+			</surfaceLayer>
+			<parts>
+				<li Class="ScenPart_ConfigPage_ConfigureStartingPawns">
+					<def>ConfigPage_ConfigureStartingPawns</def>
+					<pawnChoiceCount>4</pawnChoiceCount>
+					<pawnCount>2</pawnCount>
+				</li>
+				<li Class="ScenPart_PlayerPawnsArriveMethod">
+					<def>PlayerPawnsArriveMethod</def>
+					<method>DropPods</method>
+				</li>
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>Silver</thingDef>
+					<count>4000</count>
+				</li>
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>Gold</thingDef>
+					<count>50</count>
+				</li>
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>MealSurvivalPack</thingDef>
+					<count>50</count>
+				</li>
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>MedicineIndustrial</thingDef>
+					<count>30</count>
+				</li>
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>ComponentIndustrial</thingDef>
+					<count>30</count>
+				</li>
+				<li Class="ScenPart_ScatterThingsNearPlayerStart">
+					<def>ScatterThingsNearPlayerStart</def>
+					<thingDef>Steel</thingDef>
+					<count>450</count>
+					<allowRoofed>True</allowRoofed>
+				</li>
+				<li Class="ScenPart_ScatterThingsNearPlayerStart">
+					<def>ScatterThingsNearPlayerStart</def>
+					<thingDef>WoodLog</thingDef>
+					<count>300</count>
+					<allowRoofed>True</allowRoofed>
+				</li>
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>PsychicAmplifier</thingDef>
+					<count>2</count>
+				</li>
+				<li Class="ScenPart_CreateIncident">
+					<def>CreateIncident</def>
+					<incident>Luxandra_Inc_InquisitionPurgeSappers</incident>
+					<intervalDays>24.2450981</intervalDays>
+					<minDays>25</minDays>
+					<maxDays>30</maxDays>
+				</li>
+				<li Class="ScenPart_StartingResearch">
+					<def>StartingResearch</def>
+					<project>NobleApparel</project>
+				</li>
+				<li Class="ScenPart_ScatterThingsAnywhere">
+					<def>ScatterThingsAnywhere</def>
+					<thingDef>ComponentIndustrial</thingDef>
+					<count>45</count>
+					<allowRoofed>True</allowRoofed>
+				</li>
+			</parts>
+		</scenario>
 	</ScenarioDef>
 </Defs>

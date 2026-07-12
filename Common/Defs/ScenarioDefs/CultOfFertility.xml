@@ -16,7 +16,7 @@ You do not have many years left on this life, but you will do what you can for t
 You gathered as many resources as you could to prepare for their arrival soon enough.
 
 Note: You start with plenty of resources and a permanent fertility blessing. Your colony will grow faster than your technology allows to support.
-May also want to make sure your starting pawns have relationships (via rerolling or Character editor) or that they have precepts that allow free sex.</description>
+May also want to make sure your starting pawns have relationships (via rerolling or Character editor) or that they have precepts that allow free sex.			</description>
 			<playerFaction>
 				<def>PlayerFaction</def>
 				<factionDef>PlayerTribe</factionDef>
@@ -35,19 +35,6 @@ May also want to make sure your starting pawns have relationships (via rerolling
 				</connections>
 			</surfaceLayer>
 			<parts>
-				<li Class="ScenPart_PlanetLayer">
-					<def>PlanetLayer</def>
-					<layer>Orbit</layer>
-					<settingsDef>Orbit</settingsDef>
-					<hide>True</hide>
-					<tag>Orbit</tag>
-					<connections>
-						<li>
-							<tag>Surface</tag>
-							<zoomMode>ZoomIn</zoomMode>
-						</li>
-					</connections>
-				</li>
 				<li Class="ScenPart_ConfigPage_ConfigureStartingPawns">
 					<def>ConfigPage_ConfigureStartingPawns</def>
 					<pawnChoiceCount>8</pawnChoiceCount>
