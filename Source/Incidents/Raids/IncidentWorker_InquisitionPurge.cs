@@ -50,6 +50,12 @@ namespace LuxandraLust
             List<Pawn> raidSquad = new List<Pawn>();
             float pointsRemaining = parms.points;
 
+            // Put a minimum so at least 1 enemy always spawns
+            if (pointsRemaining <= 35f)
+            {
+                pointsRemaining = 36f;
+            }
+
             // Keep drawing from your custom unit roster until raid budget points are spent
             while (pointsRemaining > 35f) // 35 is the lowest CP (Conscript)
             {
