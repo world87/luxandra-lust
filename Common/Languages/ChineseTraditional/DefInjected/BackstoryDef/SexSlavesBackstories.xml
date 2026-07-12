@@ -2,28 +2,29 @@
 <LanguageData>
 
   <!-- Luxandra_vatgrown_sex_slave -->
-  <Luxandra_vatgrown_sex_slave.title>培養槽性奴隸</Luxandra_vatgrown_sex_slave.title>
+  <!-- 注意：原文 slot 為 Childhood，建議避免直白成人詞彙 -->
+  <Luxandra_vatgrown_sex_slave.title>幼年性奴隸</Luxandra_vatgrown_sex_slave.title>
   <Luxandra_vatgrown_sex_slave.titleShort>性奴隸</Luxandra_vatgrown_sex_slave.titleShort>
-  <Luxandra_vatgrown_sex_slave.baseDesc>[PAWN_nameDef]從一開始就不是被當成人來培養，而是作為取悅他人的性玩具。在[PAWN_possessive]成長期間，[PAWN_pronoun]被灌輸了大量社交與性技巧，只為滿足主人們的各種需求。</Luxandra_vatgrown_sex_slave.baseDesc>
+  <Luxandra_vatgrown_sex_slave.baseDesc>[PAWN_nameDef]並非作為普通人被培育，而是被當成性玩具培養。在[PAWN_possessive]成長期間，[PAWN_pronoun]接受了大量社交、服從與性技巧的訓練，以便迎合主人的各種要求。</Luxandra_vatgrown_sex_slave.baseDesc>
 
   <!-- Luxandra_tender -->
   <Luxandra_tender.title>溫順性奴隸</Luxandra_tender.title>
   <Luxandra_tender.titleShort>性奴隸</Luxandra_tender.titleShort>
-  <Luxandra_tender.baseDesc>[PAWN_nameDef]有一雙迷人的眼睛，[PAWN_possessive]嗓音也柔和甜美。由於[PAWN_possessive]過去曾擔任看護工作，[PAWN_pronoun]相當擅長照料他人。</Luxandra_tender.baseDesc>
+  <Luxandra_tender.baseDesc>[PAWN_nameDef]有一雙迷人的眼睛，[PAWN_possessive]聲音柔和而甜美。由於[PAWN_possessive]過去曾擔任看護工作，[PAWN_pronoun]相當擅長照料他人。</Luxandra_tender.baseDesc>
 
   <!-- Luxandra_chatty -->
   <Luxandra_chatty.title>善談性奴隸</Luxandra_chatty.title>
   <Luxandra_chatty.titleShort>性奴隸</Luxandra_chatty.titleShort>
-  <Luxandra_chatty.baseDesc>沒有人比[PAWN_nameDef]更能言善道。[PAWN_pronoun]有靈活的舌頭、敏銳的頭腦，以及令人難以移開視線的熱烈雙唇。</Luxandra_chatty.baseDesc>
+  <Luxandra_chatty.baseDesc>沒有人比[PAWN_nameDef]更健談。[PAWN_pronoun]言語靈活、頭腦敏銳，並且很懂得用言談討人歡心。</Luxandra_chatty.baseDesc>
 
   <!-- Luxandra_broken -->
-  <Luxandra_broken.title>破碎性奴隸</Luxandra_broken.title>
+  <Luxandra_broken.title>殘破性奴隸</Luxandra_broken.title>
   <Luxandra_broken.titleShort>性奴隸</Luxandra_broken.titleShort>
-  <Luxandra_broken.baseDesc>[PAWN_nameDef]曾遭受某些可怕的經歷，如今[PAWN_pronoun]看起來相當消瘦憔悴。</Luxandra_broken.baseDesc>
+  <Luxandra_broken.baseDesc>[PAWN_nameDef]曾遭受某些可怕的對待，[PAWN_pronoun]看起來相當消瘦。</Luxandra_broken.baseDesc>
 
   <!-- Luxandra_homekeeper -->
   <Luxandra_homekeeper.title>家務性奴隸</Luxandra_homekeeper.title>
   <Luxandra_homekeeper.titleShort>性奴隸</Luxandra_homekeeper.titleShort>
-  <Luxandra_homekeeper.baseDesc>[PAWN_nameDef]受過成為家務僕從的訓練。您想先用晚餐？先洗澡？還是說……先享用[PAWN_possessive]呢♡</Luxandra_homekeeper.baseDesc>
+  <Luxandra_homekeeper.baseDesc>[PAWN_nameDef]曾被訓練成一名家務侍從。您想先用晚餐？先洗澡？還是說……讓[PAWN_possessive]來服侍您？</Luxandra_homekeeper.baseDesc>
 
 </LanguageData>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Scenario: The Old Couple -->
+  <Luxandra_TheOldCoupleStart.label>老夫老妻</Luxandra_TheOldCoupleStart.label>
+  <Luxandra_TheOldCoupleStart.scenario.name>老夫老妻</Luxandra_TheOldCoupleStart.scenario.name>
+  <Luxandra_TheOldCoupleStart.scenario.summary>兩名年邁的科學家決心擁有他們從未得到的孩子。</Luxandra_TheOldCoupleStart.scenario.summary>
+  <Luxandra_TheOldCoupleStart.scenario.description>這對年邁夫妻怨恨命運不曾賜予他們孩子。他們一次又一次嘗試了所有方法，卻始終一無所獲。懷孕這件事似乎注定不會屬於他們。絕望之中，他們轉而求助於古老的超凡科技。一定有某種東西，存在於某個地方，能夠幫助他們。他們不斷搜尋，直到某天找到了一座發射器。那似乎是某個古老教團的遺物，記載著一位繁殖女神，以及她能賜予無盡繁殖力的傳說。在絕望之下，他們啟動了它。遠方某處，有什麼東西甦醒了。一座古老發射器開始運作，而他們突然感受到了它的呼喚。他們登上能找到的第一組空投艙發射器，朝著那道呼喚發射而去。他們不知道自己喚醒了什麼，但他們確信，那東西會幫助他們……注意：若想獲得預期體驗，建議使用角色編輯器或類似模組，確認開局角色處於伴侶關係，且至少其中一人為女性。</Luxandra_TheOldCoupleStart.scenario.description>
+
+  <!-- Start dialog -->
+  <Luxandra_TheOldCoupleStart.scenario.parts.3.text>你們渴望擁有自己從未得到的孩子。你們干涉了禁忌科技，並喚醒了某種存在。你們得到了自己想要的東西，但你們打算拿它做什麼？</Luxandra_TheOldCoupleStart.scenario.parts.3.text>
+
+</LanguageData>

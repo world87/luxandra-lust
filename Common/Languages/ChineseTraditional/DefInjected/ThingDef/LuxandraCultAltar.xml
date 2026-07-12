@@ -1,23 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-  <!-- Luxandra_SacredMonumentBase -->
-  <Luxandra_SacredMonumentBase.description>一座獻給露珊卓拉的宏偉紀念碑。只有在她引導你殖民地命運時才能建造。</Luxandra_SacredMonumentBase.description>
-
   <!-- Luxandra_SacredMonument -->
   <Luxandra_SacredMonument.label>露珊卓拉紀念碑（小型）</Luxandra_SacredMonument.label>
-  <Luxandra_SacredMonument.description>一座獻給露珊卓拉的宏偉紀念碑。只有在她引導你殖民地命運時才能建造。</Luxandra_SacredMonument.description>
+  <Luxandra_SacredMonument.description>一座獻給露珊卓拉的宏偉紀念碑。只有在她引導殖民地命運時才能建造。</Luxandra_SacredMonument.description>
 
   <!-- Luxandra_SacredMonument_Medium -->
   <Luxandra_SacredMonument_Medium.label>露珊卓拉紀念碑（中型 2x3）</Luxandra_SacredMonument_Medium.label>
-  <Luxandra_SacredMonument_Medium.description>一座獻給露珊卓拉的宏偉紀念碑。只有在她引導你殖民地命運時才能建造。</Luxandra_SacredMonument_Medium.description>
+  <Luxandra_SacredMonument_Medium.description>一座獻給露珊卓拉的宏偉紀念碑。只有在她引導殖民地命運時才能建造。</Luxandra_SacredMonument_Medium.description>
 
   <!-- Luxandra_SacredMonument_MediumRotated -->
   <Luxandra_SacredMonument_MediumRotated.label>露珊卓拉紀念碑（中型 3x2）</Luxandra_SacredMonument_MediumRotated.label>
-  <Luxandra_SacredMonument_MediumRotated.description>一座獻給露珊卓拉的宏偉紀念碑。只有在她引導你殖民地命運時才能建造。</Luxandra_SacredMonument_MediumRotated.description>
+  <Luxandra_SacredMonument_MediumRotated.description>一座獻給露珊卓拉的宏偉紀念碑。只有在她引導殖民地命運時才能建造。</Luxandra_SacredMonument_MediumRotated.description>
 
   <!-- Luxandra_SacredMonument_Large -->
-  <Luxandra_SacredMonument_Large.label>露珊卓拉紀念碑（宏偉）</Luxandra_SacredMonument_Large.label>
-  <Luxandra_SacredMonument_Large.description>一座獻給露珊卓拉的宏偉紀念碑。只有在她引導你殖民地命運時才能建造。</Luxandra_SacredMonument_Large.description>
+  <Luxandra_SacredMonument_Large.label>露珊卓拉紀念碑（大型）</Luxandra_SacredMonument_Large.label>
+  <Luxandra_SacredMonument_Large.description>一座獻給露珊卓拉的宏偉紀念碑。只有在她引導殖民地命運時才能建造。</Luxandra_SacredMonument_Large.description>
 
 </LanguageData>
