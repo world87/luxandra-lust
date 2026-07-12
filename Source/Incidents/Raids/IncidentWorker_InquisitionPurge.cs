@@ -35,11 +35,11 @@ namespace LuxandraLust
                 return false;
             }
 
-            // Grab your custom pawn kinds
-            PawnKindDef cleanserKind = PawnKindDef.Named("Luxandra_Crusader_Cleanser");
-            PawnKindDef inquisitorKind = PawnKindDef.Named("Luxandra_Crusader_Inquisitor");
-            PawnKindDef whiteCapeKind = PawnKindDef.Named("Luxandra_Crusader_WhiteCape");
-            PawnKindDef conscriptKind = PawnKindDef.Named("Luxandra_Crusader_Conscript");
+            // Grab the custom pawn kinds
+            PawnKindDef cleanserKind = DefDatabase<PawnKindDef>.GetNamed("Luxandra_Crusader_Cleanser", false);
+            PawnKindDef inquisitorKind = DefDatabase<PawnKindDef>.GetNamed("Luxandra_Crusader_Inquisitor", false);
+            PawnKindDef whiteCapeKind = DefDatabase<PawnKindDef>.GetNamed("Luxandra_Crusader_WhiteCape", false);
+            PawnKindDef conscriptKind = DefDatabase<PawnKindDef>.GetNamed("Luxandra_Crusader_Conscript", false);
 
             // Pick a valid edge cell to enter from
             if (!CellFinder.TryFindRandomEdgeCellWith(c => c.Walkable(map) && !c.Fogged(map), map, CellFinder.EdgeRoadChance_Neutral, out IntVec3 spawnCell))
