@@ -27,17 +27,14 @@ namespace LuxandraLust
                     return;
 
                 Pawn actor = props.pawn;
+                Pawn receiver = props.recipient;
 
-                if (!actor.RaceProps.Humanlike || !actor.IsPlayerControlled)
-                    return;
+                // Check for pawns to be player controlled
+                bool isPlayerControlled = IsPawnPlayerControlledHumanoid(actor);
+                bool isTargetPlayerControlled = IsPawnPlayerControlledHumanoid(receiver);
 
-                // And a second check (Might not be necessary, TODO verify)
-                bool isPlayerControlled = actor.Faction == Faction.OfPlayer ||    // Colonists & Mechs
-                                          actor.IsPrisonerOfColony ||             // Prisoners
-                                          actor.IsSlaveOfColony ||                // Slaves
-                                          actor.IsQuestLodger();                  // Quest Guests / Refugees
-
-                if (!isPlayerControlled)
+                // Exit if both actor and target aren't player controlled
+                if (!isPlayerControlled && !isTargetPlayerControlled)
                     return;
 
                 if (LuxandraUtilities.DoesSexMatchLuxandraKink(props) == true)
@@ -102,6 +99,7 @@ namespace LuxandraLust
             }
         }
 
+        #region Aphrodisiac Fever management
         public static void HandleAphrodisiacFeverInfection(SexProps props)
         {
             Pawn pawn = props.pawn;
@@ -235,6 +233,22 @@ namespace LuxandraLust
                     }
                 }
             }
+        }
+
+        #endregion
+
+        private static bool IsPawnPlayerControlledHumanoid(Pawn pawn)
+        {
+            if (!pawn.RaceProps.Humanlike)
+                return false;
+
+            // And a second check (Might not be necessary, TODO verify)
+            bool isPlayerControlled = pawn.Faction == Faction.OfPlayer ||    // Colonists & Mechs
+                                      pawn.IsPrisonerOfColony ||             // Prisoners
+                                      pawn.IsSlaveOfColony ||                // Slaves
+                                      pawn.IsQuestLodger();                  // Quest Guests / Refugees
+
+            return isPlayerControlled;
         }
     }
 }

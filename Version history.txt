@@ -1,5 +1,6 @@
 0.16 - in dev...
 - Corrected the Aphrodisiac fever calculation to still reduce severity on all parts affected if a pawn has it on more than one place
+- Updated the sex check to account for both player and NPC initiated sex to fulfil kinks (assuming at least one of them is a player controlled humanoid)
 
 0.15.2 - 12/07/2026
 - Corrected the sex check so it only looks at colonists' sex acts rather than any humanoid on the map. (This should fix some modded visitors accidentally triggering Kinks)
@@ -11,7 +12,6 @@
 - Updated the Deviant Horde raids, regular raids can now only show up at lower wealth levels
 - Added a cap (100ish) to the amount of deviants that spawn on the Deviant Horde events so they stop raping your CPU instead of your pawns. Instead of increasing pawn count, the conditions coming with the event will be harsher at higher wealths
 - Added a 4th scenario
-
 
 0.15 - 09/07/2026
 - Reworked the Childbirth judgement logic. Now it will mainly look at extreme ideology (hated or required tier) to determine the result, or if the ENTIRE colony is rapist or zoophile. "Accepted" tier of precepts will be neutral (never punished nor rewarded). Regular childbirths will only be rewarded if the colony hates all major depravities and will only be punished if any depravity is required.
