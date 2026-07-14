@@ -11,6 +11,9 @@ namespace LuxandraLust
     {
         protected override bool CanFireNowSub(IncidentParms parms)
         {
+            if (!LuxandraEventCheck.IsEnabled(LuxandraIncidentDefOf.Luxandra_Inc_PleasureWave.defName))
+                return false;
+
             if (!base.CanFireNowSub(parms)) return false;
             Map map = parms.target as Map;
             return map != null;
@@ -46,10 +49,13 @@ namespace LuxandraLust
     // ==========================================
     //     FRUSTRATION DRONE INCIDENT WORKER
     // ==========================================
-    public class IncidentWorker_FrustrationDrone : IncidentWorker
+    public class IncidentWorker_FrustrationWave : IncidentWorker
     {
         protected override bool CanFireNowSub(IncidentParms parms)
         {
+            if (!LuxandraEventCheck.IsEnabled(LuxandraIncidentDefOf.Luxandra_Inc_FrustrationWave.defName))
+                return false;
+
             if (!base.CanFireNowSub(parms)) return false;
             Map map = parms.target as Map;
             return map != null;
@@ -61,7 +67,7 @@ namespace LuxandraLust
             if (map == null) return false;
 
             // Fetch the negative condition
-            GameConditionDef conditionDef = DefDatabase<GameConditionDef>.GetNamed("Luxandra_FrustrationDrone");
+            GameConditionDef conditionDef = DefDatabase<GameConditionDef>.GetNamed("Luxandra_FrustrationWave");
             if (conditionDef == null) return false;
 
             // Apply condition (2 to 4 days)
@@ -120,6 +126,25 @@ namespace LuxandraLust
                 hediff.Severity = SatisfactionMultiplier;
             }
         }
+
+        public override void End()
+        {
+            Map map = this.SingleMap;
+            if (map != null && HediffToApply != null)
+            {
+                foreach (Pawn pawn in map.mapPawns.AllHumanlikeSpawned)
+                {
+                    if (pawn == null) continue;
+
+                    Hediff hediff = pawn.health.hediffSet.GetFirstHediffOfDef(HediffToApply);
+                    if (hediff != null)
+                    {
+                        pawn.health.RemoveHediff(hediff);
+                    }
+                }
+            }
+            base.End();
+        }
     }
 
     // --- Pleasure Wave ---
@@ -130,9 +155,39 @@ namespace LuxandraLust
     }
 
     // --- Frustration Drone ---
-    public class GameCondition_FrustrationDrone : GameCondition_SexSatisfactionBase
+    public class GameCondition_FrustrationWave : GameCondition_SexSatisfactionBase
     {
         protected override float SatisfactionMultiplier => 0.5f; // Low Satisfaction
         protected override HediffDef HediffToApply => HediffDef.Named("Luxandra_SexSatisfactionShifted");
+    }
+
+    // Hediff
+    // TODO: Refactor this so i can use it for more stuff
+    public class HediffCompProperties_RemoveWithoutCondition : HediffCompProperties
+    {
+        public HediffCompProperties_RemoveWithoutCondition()
+        {
+            this.compClass = typeof(HediffComp_RemoveWithoutCondition);
+        }
+    }
+
+    public class HediffComp_RemoveWithoutCondition : HediffComp
+    {
+        public override bool CompShouldRemove
+        {
+            get
+            {
+                Map map = this.Pawn.Map;
+
+                // If they aren't on a map (e.g. traveling in a caravan), strip the effect
+                if (map == null) return true;
+
+                // Check if either of our custom map conditions are active
+                bool conditionIsActive = map.gameConditionManager.ConditionIsActive(GameConditionDef.Named("Luxandra_PleasureWave")) ||
+                                         map.gameConditionManager.ConditionIsActive(GameConditionDef.Named("Luxandra_FrustrationWave"));
+
+                return !conditionIsActive;
+            }
+        }
     }
 }

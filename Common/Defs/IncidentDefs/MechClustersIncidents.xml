@@ -51,4 +51,30 @@
 			<li>ExtremeDesert</li>
 		</allowedBiomes>
 	</IncidentDef>
+	
+	<IncidentDef>
+		<defName>Luxandra_Inc_FrustrationWaveMechCluster</defName>
+		<label>mechanoid frustration wave transmitter cluster</label>
+		<category>ThreatBig</category>
+		<workerClass>LuxandraLust.IncidentWorker_FrustrationWaveMechCluster</workerClass>
+		<targetTags>
+			<li>Map_PlayerHome</li>
+		</targetTags>
+		<baseChance>1.0</baseChance>
+		<minThreatPoints>500</minThreatPoints>
+		<letterDef>ThreatBig</letterDef>
+		<minRefireDays>20</minRefireDays>
+		<allowedBiomes>
+			<li>BorealForest</li>
+			<li>Tundra</li>
+			<li>ColdBog</li>
+			<li>TemperateForest</li>
+			<li>TemperateSwamp</li>
+			<li>TropicalRainforest</li>
+			<li>TropicalSwamp</li>
+			<li>AridShrubland</li>
+			<li>Desert</li>
+			<li>ExtremeDesert</li>
+		</allowedBiomes>
+	</IncidentDef>
 </Defs>

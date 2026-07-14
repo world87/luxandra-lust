@@ -17,8 +17,9 @@
   <Luxandra_Inc_WetDreamsPulse_Desc>A average lasting condition that will occasionally wake up your colonists in a pleasurable way.</Luxandra_Inc_WetDreamsPulse_Desc>
   <Luxandra_Inc_WetDreamsPulseSite_Desc>A remote transmitter will cause a Wet Dreams Pulse on your map until you disable it.</Luxandra_Inc_WetDreamsPulseSite_Desc>
   <Luxandra_Inc_WetDreamsPulseMechCluster_Desc>A mech cluster will cause a Wet Dreams Pulse on your map until you destroy it.</Luxandra_Inc_WetDreamsPulseMechCluster_Desc>
-  <Luxandra_Inc_PleasureWaveCluster_Desc>A psychic drone will make sexual acts more satisfying for a time.</Luxandra_Inc_PleasureWaveCluster_Desc>
-  <Luxandra_Inc_FrustrationDrone_Desc>A psychic drone will make sexual acts less satisfying for a time.</Luxandra_Inc_FrustrationDrone_Desc>
+  <Luxandra_Inc_PleasureWave_Desc>A psychic drone will make sexual acts more satisfying for a time.</Luxandra_Inc_PleasureWave_Desc>
+  <Luxandra_Inc_FrustrationWave_Desc>A psychic drone will make sexual acts less satisfying for a time.</Luxandra_Inc_FrustrationWave_Desc>
+  <Luxandra_Inc_FrustrationWaveMechCluster_Desc>A mech cluster will cause a Frustration Wave on your map until you destroy it.</Luxandra_Inc_FrustrationWaveMechCluster_Desc>
   
   <Luxandra_Inc_RapistBreak_Desc>One or more pawns go on a Random Rape mental break.</Luxandra_Inc_RapistBreak_Desc>
   <Luxandra_Inc_HornyTribalRaid_Desc>A tribal raid with increased speed and sex drive.</Luxandra_Inc_HornyTribalRaid_Desc>

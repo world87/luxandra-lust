@@ -101,4 +101,55 @@
 			<ComponentSpacer>1</ComponentSpacer>
 		</killedLeavings>
 	</ThingDef>
+	
+	<ThingDef ParentName="BuildingBase">
+		<defName>Luxandra_FrustrationWaveTransmitter</defName>
+		<label>Frustration wave transmitter</label>
+		<description>An ancient, humming mechanoid archetype device. It utilizes localized psychic frequencies to reduce sexual performance of humanoids in nearby regions.</description>
+		<thingClass>Building</thingClass>
+		<category>Building</category>
+		<graphicData>
+			<texPath>Things/Buildings/Luxandra_Transmitter</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(5.8, 5.8)</drawSize>
+			<drawOffset>(0,0,-0.15)</drawOffset>
+			<shaderType>Cutout</shaderType>
+			<shadowData>
+				<volume>(4.8, 1.0, 4.8)</volume>
+			</shadowData>
+		</graphicData>
+		<altitudeLayer>Building</altitudeLayer>
+		<selectable>true</selectable>
+		<fillPercent>1.0</fillPercent>
+		<size>(5,5)</size>
+		<tickerType>Normal</tickerType>
+		<rotatable>false</rotatable>
+		<statBases>
+			<MaxHitPoints>600</MaxHitPoints>
+			<Flammability>0.0</Flammability>
+			<MarketValue>1200</MarketValue>
+		</statBases>
+		<building>
+			<claimable>false</claimable>
+			<buildingTags>
+				<li>MechClusterProblemCauser</li>
+			</buildingTags>
+			<combatPower>100</combatPower>
+		</building>
+		<comps>
+			<li Class="CompProperties_CausesGameCondition">
+				<conditionDef>Luxandra_FrustrationWave</conditionDef>
+				<worldRange>35</worldRange>
+			</li>
+			<li Class="CompProperties_Glower">
+				<glowRadius>6</glowRadius>
+				<glowColor>(230, 50, 150, 0)</glowColor>
+			</li>
+		</comps>
+		<killedLeavings>
+			<Steel>50</Steel>
+			<Plasteel>25</Plasteel>
+			<ComponentSpacer>1</ComponentSpacer>
+		</killedLeavings>
+	</ThingDef>
 </Defs>

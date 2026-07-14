@@ -161,8 +161,7 @@
 		<hediffClass>HediffWithComps</hediffClass>
 		<isBad>false</isBad>
 		<maxSeverity>2.5</maxSeverity>
-		<initialSeverity>1.0</initialSeverity> <!-- Baseline state -->
-		
+		<initialSeverity>1.0</initialSeverity>
 		<stages>
 			<li>
 				<label>dulled sensitivity</label>
@@ -182,5 +181,8 @@
 				</statFactors>
 			</li>
 		</stages>
+		<comps>
+			<li Class="LuxandraLust.HediffCompProperties_RemoveWithoutCondition"/>
+		</comps>
 	</HediffDef>
 </Defs>

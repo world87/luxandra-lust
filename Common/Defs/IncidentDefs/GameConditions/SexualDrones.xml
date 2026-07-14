@@ -10,8 +10,8 @@
 
 	<!-- Negative Condition -->
 	<GameConditionDef>
-		<defName>Luxandra_FrustrationDrone</defName>
-		<conditionClass>LuxandraLust.GameCondition_FrustrationDrone</conditionClass>
+		<defName>Luxandra_FrustrationWave</defName>
+		<conditionClass>LuxandraLust.GameCondition_FrustrationWave</conditionClass>
 		<label>frustration drone</label>
 		<description>A discordant psychic hum is creating extreme physical numbness and irritability across the map.</description>
 	</GameConditionDef>

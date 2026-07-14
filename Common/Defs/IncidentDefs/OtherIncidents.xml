@@ -187,17 +187,17 @@
 	</IncidentDef>
 
 	<IncidentDef>
-		<defName>Luxandra_Inc_FrustrationDrone</defName>
-		<label>psychic frustration drone</label>
+		<defName>Luxandra_Inc_FrustrationWave</defName>
+		<label>psychic frustration wave</label>
 		<category>Misc</category>
 		<targetTags>
 			<li>Map_PlayerHome</li>
 		</targetTags>
-		<workerClass>LuxandraLust.IncidentWorker_FrustrationDrone</workerClass>
+		<workerClass>LuxandraLust.IncidentWorker_FrustrationWave</workerClass>
 		<baseChance>0.3</baseChance>
 		<minRefireDays>20</minRefireDays>
 
-		<letterLabel>Psychic Frustration Drone</letterLabel>
+		<letterLabel>Psychic Frustration Wave</letterLabel>
 		<letterText>A grating psychic hum is echoing across the region. People feel physical numbness, irritability, and sudden difficulty finding intimacy satisfying.</letterText>
 		<letterDef>NegativeEvent</letterDef>
 	</IncidentDef>

@@ -83,6 +83,7 @@
     <Compile Include="Incidents\IncidentWorker_ThrallPodCrash.cs" />
     <Compile Include="Incidents\IncidentWorker_WetDream.cs" />
     <Compile Include="Incidents\GameConditions\IncidentWorker_WetDreamsPulse.cs" />
+    <Compile Include="Incidents\MechClusters\IncidentWorker_FrustrationWaveMechCluster.cs" />
     <Compile Include="Incidents\MechClusters\IncidentWorker_WetDreamsPulseMechCluster.cs" />
     <Compile Include="Incidents\Raids\IncidentWorker_AmazonStealthAmbush.cs" />
     <Compile Include="Incidents\IncidentWorker_AphrodisiacFever.cs" />
