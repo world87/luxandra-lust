@@ -841,6 +841,7 @@ namespace LuxandraLust
             catch
             {
                 Log.Error("[Luxandra Debug] The cached incident collection failed to load. If you see this send a log to the dev.");
+                Log.Error($"[Luxandra Debug] Additional note: incidents loaded at the error time = {LuxandraDefsCollections.AllIncidents.Count}");
                 return false;
             }
         }

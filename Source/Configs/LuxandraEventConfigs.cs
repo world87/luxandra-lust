@@ -56,7 +56,7 @@ namespace LuxandraLust
             Listing_Standard scrollListing = new Listing_Standard();
             scrollListing.Begin(viewRect);
 
-            if (!LuxandraDefsCollections._isInitialized)
+            if (!LuxandraDefsCollections._isInitialized || !LuxandraDefsCollections.AllIncidents.Any())
             {
                 scrollListing.Label("Luxandra_UI_DatabaseLoading_Label".Translate());
             }
