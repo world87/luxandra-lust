@@ -82,7 +82,7 @@
     <Compile Include="Incidents\IncidentWorker_StripQuake.cs" />
     <Compile Include="Incidents\IncidentWorker_ThrallPodCrash.cs" />
     <Compile Include="Incidents\IncidentWorker_WetDream.cs" />
-    <Compile Include="Incidents\IncidentWorker_WetDreamsPulse.cs" />
+    <Compile Include="Incidents\GameConditions\IncidentWorker_WetDreamsPulse.cs" />
     <Compile Include="Incidents\MechClusters\IncidentWorker_WetDreamsPulseMechCluster.cs" />
     <Compile Include="Incidents\Raids\IncidentWorker_AmazonStealthAmbush.cs" />
     <Compile Include="Incidents\IncidentWorker_AphrodisiacFever.cs" />
@@ -106,7 +106,7 @@
     <Compile Include="Incidents\Raids\IncidentWorker_AmazonBloodTrial.cs" />
     <Compile Include="Incidents\Raids\IncidentWorker_DeviantHungerSwarm.cs" />
     <Compile Include="Utilities\DebugStuff.cs" />
-    <Compile Include="Incidents\IncidentWorker_LustfulFertilityPulse.cs" />
+    <Compile Include="Incidents\GameConditions\IncidentWorker_LustfulFertilityPulse.cs" />
     <Compile Include="Incidents\IncidentWorker_GenitalSizeEvents.cs" />
     <Compile Include="Incidents\IncidentWorker_HornyRush.cs" />
     <Compile Include="Incidents\IncidentWorker_IdeologyLeaderBlessing.cs" />
@@ -118,7 +118,7 @@
     <Compile Include="Incidents\IncidentWorker_RoyalDepravity.cs" />
     <Compile Include="Incidents\IncidentWorker_RoyalLuxury.cs" />
     <Compile Include="Incidents\IncidentWorker_IdeologyLeaderDepravity.cs" />
-    <Compile Include="Incidents\IncidentWorker_WhiteRain.cs" />
+    <Compile Include="Incidents\GameConditions\IncidentWorker_WhiteRain.cs" />
     <Compile Include="Configs\LuxandraModConfigs.cs" />
     <Compile Include="Patches\JobPatches.cs" />
     <Compile Include="Patches\TryExecutePatches.cs" />
