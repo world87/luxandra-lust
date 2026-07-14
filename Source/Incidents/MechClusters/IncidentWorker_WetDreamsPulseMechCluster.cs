@@ -69,10 +69,12 @@ namespace LuxandraLust
 
             MechClusterUtility.SpawnCluster(dropCenter, map, sketch);
 
-            string letterLabel = "Wet Dreams Inducer Dropped";
-            string letterText = "A mechanoid cluster has crashed down close to your colony! At its core lies a buzzing transmitter designed to distrupt human resting routines with extremely pleasurable dreams. Destroy it before the community collapses due to the mess and lack of sleep.";
-
-            Find.LetterStack.ReceiveLetter(letterLabel, letterText, LetterDefOf.ThreatBig, new TargetInfo(dropCenter, map));
+            Find.LetterStack.ReceiveLetter(
+                this.def.letterLabel,
+                this.def.letterText,
+                this.def.letterDef ?? LetterDefOf.ThreatBig,
+                new TargetInfo(dropCenter, map)
+            );
 
             return true;
         }

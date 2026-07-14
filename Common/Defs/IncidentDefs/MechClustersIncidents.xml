@@ -24,6 +24,10 @@
 			<li>Desert</li>
 			<li>ExtremeDesert</li>
 		</allowedBiomes>
+
+		<letterLabel>Mechanoid Fertility Overloader Dropped</letterLabel>
+		<letterText>A mechanoid cluster has crashed down close to your colony! At its core lies a buzzing transmitter designed to overload human reproductive systems. Destroy it before the community collapses into a wild chaotic orgy.</letterText>
+		<letterDef>ThreatBig</letterDef>
 	</IncidentDef>
 	
 	<IncidentDef>
@@ -50,6 +54,10 @@
 			<li>Desert</li>
 			<li>ExtremeDesert</li>
 		</allowedBiomes>
+
+		<letterLabel>Wet Dreams Inducer Dropped</letterLabel>
+		<letterText>A mechanoid cluster has crashed down close to your colony! At its core lies a buzzing transmitter designed to distrupt human resting routines with extremely pleasurable dreams. Destroy it before the community collapses due to the mess and lack of sleep.</letterText>
+		<letterDef>ThreatBig</letterDef>
 	</IncidentDef>
 	
 	<IncidentDef>
@@ -76,5 +84,9 @@
 			<li>Desert</li>
 			<li>ExtremeDesert</li>
 		</allowedBiomes>
+
+		<letterLabel>Frustration Wave Transmitter Dropped</letterLabel>
+		<letterText>A mechanoid cluster has crashed down close to your colony! At its core lies a buzzing transmitter designed to distrupt human sexual systems. Destroy it before the community collapses due to the lack of satisfaction.</letterText>
+		<letterDef>ThreatBig</letterDef>
 	</IncidentDef>
 </Defs>

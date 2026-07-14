@@ -67,10 +67,12 @@ namespace LuxandraLust
 
             MechClusterUtility.SpawnCluster(dropCenter, map, sketch);
 
-            string letterLabel = "Frustration Wave Transmitter Dropped";
-            string letterText = "A mechanoid cluster has crashed down close to your colony! At its core lies a buzzing transmitter designed to distrupt human sexual systems. Destroy it before the community collapses due to the lack of satisfaction.";
-
-            Find.LetterStack.ReceiveLetter(letterLabel, letterText, LetterDefOf.ThreatBig, new TargetInfo(dropCenter, map));
+            Find.LetterStack.ReceiveLetter(
+                this.def.letterLabel,
+                this.def.letterText,
+                this.def.letterDef ?? LetterDefOf.NegativeEvent,
+                new TargetInfo(dropCenter, map)
+            );
 
             return true;
         }

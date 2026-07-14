@@ -69,10 +69,12 @@ namespace LuxandraLust
 
             MechClusterUtility.SpawnCluster(dropCenter, map, sketch);
 
-            string letterLabel = "Mechanoid Fertility Overloader Dropped";
-            string letterText = "A mechanoid cluster has crashed down close to your colony! At its core lies a buzzing transmitter designed to overload human reproductive systems. Destroy it before the community collapses into a wild chaotic orgy.";
-
-            Find.LetterStack.ReceiveLetter(letterLabel, letterText, LetterDefOf.ThreatBig, new TargetInfo(dropCenter, map));
+            Find.LetterStack.ReceiveLetter(
+                this.def.letterLabel,
+                this.def.letterText,
+                this.def.letterDef ?? LetterDefOf.ThreatBig,
+                new TargetInfo(dropCenter, map)
+            );
 
             return true;
         }
