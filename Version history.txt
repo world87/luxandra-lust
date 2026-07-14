@@ -1,3 +1,6 @@
+0.16 - in dev...
+- Corrected the Aphrodisiac fever calculation to still reduce severity on all parts affected if a pawn has it on more than one place
+
 0.15.2 - 12/07/2026
 - Corrected the sex check so it only looks at colonists' sex acts rather than any humanoid on the map. (This should fix some modded visitors accidentally triggering Kinks)
 - Corrected a couple oversight with Crusader raids that caused the generation of the raid to fail at low wealth or without Anomaly

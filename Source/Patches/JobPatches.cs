@@ -162,65 +162,78 @@ namespace LuxandraLust
             if (pawn.health == null || partUsed == null) return;
 
             // Find our custom fever hediff
-            var fever = pawn.health.hediffSet.hediffs
-                .FirstOrDefault(h => h.def.defName == "Luxandra_AphrodisiacFever");
+            var partsWithFever = pawn.health.hediffSet.hediffs
+                .Where(h => h.def.defName == "Luxandra_AphrodisiacFever");
 
             // If they don't have it, or it's on a part that was missing/destroyed, exit
-            if (fever == null || fever.Part == null) return;
+            if (partsWithFever == null || !partsWithFever.Any()) return;
 
-            var feverPart = fever.Part.def.defName;
-
-            bool partWasUsed = false;
-            LuxandraDebugActions.DebugLogMessage($"Part with fever for {pawn.NameShortColored}: {feverPart}");
-            LuxandraDebugActions.DebugLogMessage($"Part used by {pawn.NameShortColored}: {partUsed}");
-
-            // Did the part they just used match where the fever is living?
-            if (feverPart == "Genitals" && partUsed == "Genitals")
-                partWasUsed = true;
-
-            if (feverPart == "Anus" && partUsed == "Anus")
-                partWasUsed = true;
-
-            if ((feverPart == "Mouth" || feverPart == "Stomach") && (partUsed == "Mouth" || partUsed == "Jaw"))
-                partWasUsed = true;
-
-            // Calculate the potential reduction
-            float reduction = 0f;
-
-            if (partWasUsed)
+            // Cycle all the parts with fever
+            foreach (var fever in partsWithFever)
             {
-                reduction = Rand.Range(0.05f, 0.10f);
-            }
-            else
-            {
-                reduction = 0.01f;
-            }
+                try
+                {
+                    var feverPart = fever.Part.def.defName;
 
-            SkillDef sexSkillDef = DefDatabase<SkillDef>.GetNamedSilentFail("Sex");
+                    bool partWasUsed = false;
+                    LuxandraDebugActions.DebugLogMessage($"Part with fever for {pawn.NameShortColored}: {feverPart}");
+                    LuxandraDebugActions.DebugLogMessage($"Part used by {pawn.NameShortColored}: {partUsed}");
 
-            // If the pawn is valid and has the skill, grab their level (0 - 20)
-            if (pawn != null && sexSkillDef != null && pawn.skills != null)
-            {
-                int skillLevel = pawn.skills.GetSkill(sexSkillDef).Level;
+                    // Did the part they just used match where the fever is living?
+                    if (feverPart == "Genitals" && partUsed == "Genitals")
+                        partWasUsed = true;
 
-                // A level 0 pawn gets a 1.0x modifier. A level 20 pawn gets a 4.0x modifier.
-                // Formula: 1.0 + (Level * 0.15) -> Maxes out at 4.0x at level 20.
-                float skillMultiplier = 1.0f + (skillLevel * 0.15f);
-                LuxandraDebugActions.DebugLogMessage($"{pawn.LabelShort}'s sex skill increases their healing by a factor of {skillMultiplier}.");
-                reduction = reduction * skillMultiplier;
-            }
+                    if (feverPart == "Anus" && partUsed == "Anus")
+                        partWasUsed = true;
 
-            // Reduce the fever
-            fever.Severity -= reduction;
-            string percentReduced = (reduction * 100f).ToString("F1");
+                    if ((feverPart == "Mouth" || feverPart == "Stomach") && (partUsed == "Mouth" || partUsed == "Jaw"))
+                        partWasUsed = true;
 
-            LuxandraDebugActions.DebugLogMessage($"{pawn.LabelShort}'s Aphrodisiac Fever on their {fever.Part.def.label} cooled by {percentReduced}%.");
+                    // Calculate the potential reduction
+                    float reduction = 0f;
 
+                    if (partWasUsed)
+                    {
+                        reduction = Rand.Range(0.05f, 0.10f);
+                    }
+                    else
+                    {
+                        reduction = 0.01f;
+                    }
 
-            if (fever.Severity <= 0)
-            {
-                Messages.Message($"{pawn.LabelShort} has successfully quenched and cured their Aphrodisiac Fever!",
-                    pawn, MessageTypeDefOf.PositiveEvent);
+                    SkillDef sexSkillDef = DefDatabase<SkillDef>.GetNamedSilentFail("Sex");
+
+                    // If the pawn is valid and has the skill, grab their level (0 - 20)
+                    if (pawn != null && sexSkillDef != null && pawn.skills != null)
+                    {
+                        int skillLevel = pawn.skills.GetSkill(sexSkillDef).Level;
+
+                        // A level 0 pawn gets a 1.0x modifier. A level 20 pawn gets a 4.0x modifier.
+                        // Formula: 1.0 + (Level * 0.15) -> Maxes out at 4.0x at level 20.
+                        float skillMultiplier = 1.0f + (skillLevel * 0.15f);
+                        LuxandraDebugActions.DebugLogMessage($"{pawn.LabelShort}'s sex skill increases their healing by a factor of {skillMultiplier}.");
+                        reduction = reduction * skillMultiplier;
+                    }
+
+                    // Reduce the fever
+                    fever.Severity -= reduction;
+                    string percentReduced = (reduction * 100f).ToString("F1");
+
+                    LuxandraDebugActions.DebugLogMessage($"{pawn.LabelShort}'s Aphrodisiac Fever on their {fever.Part.def.label} cooled by {percentReduced}%.");
+
+                    if (fever.Severity <= 0)
+                    {
+                        Messages.Message($"{pawn.LabelShort} has successfully quenched and cured their Aphrodisiac Fever!",
+                            pawn, MessageTypeDefOf.PositiveEvent);
+                    }
+                }
+                // Fallback in case something implodes
+                catch
+                {
+                    {
+                        LuxandraDebugActions.DebugLogMessage($"Error attempting to reduce {pawn.LabelShort}'s Aphrodisiac Fever on their {fever.Part.def.label}.");
+                    }
+                }
             }
         }
     }
