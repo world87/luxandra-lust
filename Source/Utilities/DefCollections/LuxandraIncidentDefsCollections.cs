@@ -39,6 +39,7 @@ namespace LuxandraLust
 
         public static IncidentDef Luxandra_Inc_PleasureWave;
         public static IncidentDef Luxandra_Inc_FrustrationWave;
+        public static IncidentDef Luxandra_Inc_FrustrationWaveSite;
         public static IncidentDef Luxandra_Inc_FrustrationWaveMechCluster;
 
         public static IncidentDef Luxandra_Inc_RapistBreak;
@@ -290,6 +291,12 @@ namespace LuxandraLust
                 incidentType: LuxandraIncidentType.Negative,
                 description: "Luxandra_Inc_FrustrationWave_Desc".Translate(),
                 pointBaseCost: 20
+            ));
+
+            temporaryList.Add(new LuxandraIncidentDefs(
+                incidentDef: LuxandraIncidentDefOf.Luxandra_Inc_FrustrationWaveSite,
+                incidentType: LuxandraIncidentType.Negative,
+                description: "Luxandra_Inc_FrustrationWaveSite_Desc".Translate()
             ));
 
             temporaryList.Add(new LuxandraIncidentDefs(

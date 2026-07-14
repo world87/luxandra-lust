@@ -91,6 +91,7 @@
     <Compile Include="Incidents\MechClusters\IncidentWorker_FertilityPulseMechCluster.cs" />
     <Compile Include="Incidents\Raids\IncidentWorker_StarvingAmazons.cs" />
     <Compile Include="Incidents\Raids\IncidentWorker_InquisitionPurge.cs" />
+    <Compile Include="Incidents\Worksites\IncidentWorker_FrustrationWaveSite.cs" />
     <Compile Include="Incidents\Worksites\IncidentWorker_WetDreamsPulseSite.cs" />
     <Compile Include="Incidents\Worksites\IncidentWorker_FertilityPulseSite.cs" />
     <Compile Include="ModIntegrations\Cumpilation.cs" />

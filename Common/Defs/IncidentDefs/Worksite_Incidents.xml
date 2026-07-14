@@ -69,4 +69,39 @@
 		<linkWithSite>Luxandra_WetDreamsPulseSitePart</linkWithSite>
 		<genStep Class="GenStep_ConditionCauser"/>
 	</GenStepDef>
+	
+	<!-- Frustration Wave -->
+	<IncidentDef>
+		<defName>Luxandra_Inc_FrustrationWaveSite</defName>
+		<label>frustration wave transmitter detected</label>
+		<category>ThreatBig</category>
+		<workerClass>LuxandraLust.IncidentWorker_FrustrationWaveSite</workerClass>
+		<targetTags>
+			<li>Map_PlayerHome</li>
+		</targetTags>
+		<baseChance>0.3</baseChance>
+		<minThreatPoints>150</minThreatPoints>
+		<letterDef>NegativeEvent</letterDef>
+		<minRefireDays>15</minRefireDays>
+	</IncidentDef>
+
+	<SitePartDef>
+		<defName>Luxandra_FrustrationWaveSitePart</defName>
+		<label>frustration wave transmitter</label>
+		<description>A site containing a localized psychic transmitter emitting a frequency across the region.</description>
+		<workerClass>SitePartWorker_ConditionCauser</workerClass>
+		<conditionCauserDef>Luxandra_FrustrationWaveTransmitter</conditionCauserDef>
+		<tags>
+			<li>ConditionCauser</li>
+		</tags>
+		<siteTexture>World/WorldObjects/Sites/GenericSite</siteTexture>
+		<expandingIconTexture>World/WorldObjects/Expanding/Sites/Ambush</expandingIconTexture>
+	</SitePartDef>
+
+	<GenStepDef>
+		<defName>Luxandra_FrustrationWaveGenStep</defName>
+		<order>450</order>
+		<linkWithSite>Luxandra_FrustrationWaveSitePart</linkWithSite>
+		<genStep Class="GenStep_ConditionCauser"/>
+	</GenStepDef>
 </Defs>

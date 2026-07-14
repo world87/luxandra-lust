@@ -81,7 +81,7 @@ namespace LuxandraLust
             Find.WorldObjects.Add(site);
 
             string letterLabel = "Wet Dreams Inducer Activated";
-            string letterText = $"Long-range sensors have detected an active mechanical transmitter nearby. It has begun broadcasting an intense psychic disturbance, frequently waking up pawns in their sleep.\n\nIt will continue to plague your colony until you send a caravan to destroy it.\n According to energy signatures, its internal power matrix will deplete and shut down naturally in {durationDays} days if left alone.\n\n" +
+            string letterText = $"Long-range sensors have detected an active mechanical transmitter nearby. It has begun broadcasting an intense psychic disturbance, frequently waking up pawns in their sleep.\n\nIt will continue to plague your colony until you send a caravan to destroy it.\nAccording to energy signatures, its internal power matrix will deplete and shut down naturally in {durationDays} days if left alone.\n\n" +
                 $"There may be something or someone defending it...";
 
             Find.LetterStack.ReceiveLetter(letterLabel, letterText, LetterDefOf.NegativeEvent, site);

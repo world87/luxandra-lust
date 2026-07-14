@@ -5,13 +5,13 @@ using Verse;
 
 namespace LuxandraLust
 {
-    public class IncidentWorker_FertilityPulseSite : IncidentWorker
+    public class IncidentWorker_FrustrationWaveSite : IncidentWorker
     {
         protected override bool CanFireNowSub(IncidentParms parms)
         {
             if (!base.CanFireNowSub(parms)) return false;
 
-            if (!LuxandraEventCheck.IsEnabled(LuxandraIncidentDefOf.Luxandra_Inc_FertilityPulseSite.defName))
+            if (!LuxandraEventCheck.IsEnabled(LuxandraIncidentDefOf.Luxandra_Inc_FrustrationWaveSite.defName))
             {
                 return false;
             }
@@ -39,7 +39,7 @@ namespace LuxandraLust
 
             var sitePartList = new List<SitePartDef>();
 
-            SitePartDef pulseBuildingGen = DefDatabase<SitePartDef>.GetNamed("Luxandra_FertilityPulseSitePart", false);
+            SitePartDef pulseBuildingGen = DefDatabase<SitePartDef>.GetNamed("Luxandra_FrustrationWaveSitePart", false);
             if (pulseBuildingGen == null) return false;
             sitePartList.Add(pulseBuildingGen);
 
@@ -80,8 +80,8 @@ namespace LuxandraLust
 
             Find.WorldObjects.Add(site);
 
-            string letterLabel = "Fertility Overload Transmitter Activated";
-            string letterText = $"Long-range sensors have detected an active mechanical transmitter nearby. It has begun broadcasting an intense localized psychic ripple, overloading the reproductive instincts of all adults in the area.\n\nIt will continue to plague your colony until you send a caravan to destroy it.\nAccording to energy signatures, its internal power matrix will deplete and shut down naturally in {durationDays} days if left alone.\n\n" +
+            string letterLabel = "Frustration Wave Transmitter Activated";
+            string letterText = $"Long-range sensors have detected an active mechanical transmitter nearby. It has begun broadcasting an intense psychic disturbance, reducing the sexual sensitivity of nearby humanoids.\n\nIt will continue to plague your colony until you send a caravan to destroy it.\nAccording to energy signatures, its internal power matrix will deplete and shut down naturally in {durationDays} days if left alone.\n\n" +
                 $"There may be something or someone defending it...";
 
             Find.LetterStack.ReceiveLetter(letterLabel, letterText, LetterDefOf.NegativeEvent, site);
