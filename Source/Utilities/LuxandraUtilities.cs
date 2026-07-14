@@ -244,25 +244,27 @@ namespace LuxandraLust
             if (props == null || props.pawn == null)
                 return null;
 
-
             Pawn actor = props.pawn;
 
-            if (!actor.RaceProps.Humanlike)
-                return null;
+            // This is now done earlier in the postfix, leaving it here in case i need it
+            //if (!actor.RaceProps.Humanlike)
+            //    return null;
 
-            bool isPlayerControlled = actor.Faction == Faction.OfPlayer ||    // Colonists & Mechs
-                                      actor.IsPrisonerOfColony ||             // Prisoners
-                                      actor.IsSlaveOfColony ||                // Slaves
-                                      actor.IsQuestLodger();                  // Quest Guests / Refugees
+            //bool isPlayerControlled = actor.Faction == Faction.OfPlayer ||    // Colonists & Mechs
+            //                          actor.IsPrisonerOfColony ||             // Prisoners
+            //                          actor.IsSlaveOfColony ||                // Slaves
+            //                          actor.IsQuestLodger();                  // Quest Guests / Refugees
 
-            if (!isPlayerControlled)
-                return null;
+            //if (!isPlayerControlled)
+            //    return null;
 
             Pawn partner = props.partner;
             StorytellerKink currentKink = CurrentKink;
 
             string initiatorPartUsed = props.resolved?.InitiatorParts?[0]?.BodyPart?.def?.defName;
             string receiverPartUsed = props.resolved?.RecipientParts?[0]?.BodyPart?.def?.defName;
+
+            LuxandraDebugActions.DebugLogMessage($"Parsing sex. Type: {props.sexType} - {actor.NameShortColored}'s {initiatorPartUsed} and {partner.NameShortColored}'s {receiverPartUsed}");
 
             switch (currentKink)
             {
@@ -321,7 +323,7 @@ namespace LuxandraLust
                     break;
                 // Kink = Cum: anything that involves a man and one of part used is a penis
                 case StorytellerKink.Cum:
-                    if ((actor.gender == Gender.Male || partner.gender == Gender.Male) && (initiatorPartUsed == "Penis" || receiverPartUsed == "Penis"))
+                    if ((actor.gender == Gender.Male && actor.GetPenises().Any() && initiatorPartUsed == "Genitals") || (partner.gender == Gender.Male && partner.GetPenises().Any() && receiverPartUsed == "Genitals"))
                         return true;
                     break;
                 // Kink = Breasts: boobjobs and lesbian sex that is not fingering or cunnilingus
@@ -352,9 +354,9 @@ namespace LuxandraLust
                     if ((actor.mechanitor?.OverseenPawns.Count > 0 && partner.IsColonyMech) || actor.RaceProps.IsMechanoid || partner.RaceProps.IsMechanoid || IsAndroid(actor) || IsAndroid(partner))
                         return true;
                     break;
-                // Kink = Tentacles: Mimics from onahole, anomalies
+                // Kink = Tentacles: Mimics from onahole, anomalies, pawns have tentacles from anomaly
                 case StorytellerKink.Tentacles:
-                    if (actor.IsEntity || partner.IsEntity || actor.def.defName == "Onahole_Mimic" || partner.def.defName == "Onahole_Mimic")
+                    if (HasTentacles(actor) || HasTentacles(partner) || actor.IsEntity || partner.IsEntity || actor.def.defName == "Onahole_Mimic" || partner.def.defName == "Onahole_Mimic")
                         return true;
                     break;
             }
@@ -475,6 +477,36 @@ namespace LuxandraLust
 
             GeneDef androidBodyGene = DefDatabase<GeneDef>.GetNamed("VREA_SyntheticBody", false);
             return pawn != null && !pawn.Dead && pawn.genes?.HasActiveGene(androidBodyGene) == true;
+        }
+
+        /// <summary>
+        /// Determine if the pawn has tentacles so can be classified as tentacle-adjacent for kinks
+        /// </summary>
+        public static bool HasTentacles(Pawn pawn)
+        {
+            // TODO: Cases unrelated to anomaly
+            if (pawn?.health?.hediffSet == null || !ModsConfig.AnomalyActive)
+            {
+                return false;
+            }
+
+            HediffDef tentacleDef = HediffDefOf.Tentacle;
+            HediffDef fleshWhipDef = HediffDefOf.FleshWhip;
+
+            // In case for some reason both defs aren't there
+            if (tentacleDef == null && fleshWhipDef == null)
+                return false;
+
+            bool tentaclePresent = false;
+            bool fleshWhipPresent = false;
+
+            if (tentacleDef != null)
+                tentaclePresent = pawn.health.hediffSet.HasHediff(tentacleDef);
+
+            if (fleshWhipDef != null)
+                fleshWhipPresent = pawn.health.hediffSet.HasHediff(fleshWhipDef);
+
+            return tentaclePresent || fleshWhipPresent;
         }
 
         /// <summary>
@@ -715,7 +747,9 @@ namespace LuxandraLust
         }
     }
 
-    // This class tracks the selected storyteller
+    /// <summary>
+    /// This class tracks the selected storyteller
+    /// </summary>
     public static class LuxandraStorytellerCheck
     {
         /// <summary>
@@ -727,7 +761,9 @@ namespace LuxandraLust
         }
     }
 
-    // This class tracks if events are enabled
+    /// <summary>
+    /// This class tracks if events are enabled
+    /// </summary>
     public static class LuxandraEventCheck
     {
         /// <summary>

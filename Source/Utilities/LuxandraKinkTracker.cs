@@ -230,7 +230,7 @@ namespace LuxandraLust
 
         public static bool IsTentaclePornEnabled()
         {
-            if (LuxandraModChecks.IsForbiddenAnomaliesActive() || LuxandraModChecks.IsOnaholeActive() || LuxandraModChecks.IsDreadbedActive())
+            if (ModsConfig.AnomalyActive || LuxandraModChecks.IsOnaholeActive())
                 return true;
 
             return false;
