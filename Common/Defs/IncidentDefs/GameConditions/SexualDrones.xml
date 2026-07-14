@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<!-- Positive Condition -->
+	<GameConditionDef>
+		<defName>Luxandra_PleasureWave</defName>
+		<conditionClass>LuxandraLust.GameCondition_PleasureWave</conditionClass>
+		<label>pleasure wave</label>
+		<description>A soothing, aphrodisiac psychic resonance is intensifying sensory awareness across the region.</description>
+	</GameConditionDef>
+
+	<!-- Negative Condition -->
+	<GameConditionDef>
+		<defName>Luxandra_FrustrationDrone</defName>
+		<conditionClass>LuxandraLust.GameCondition_FrustrationDrone</conditionClass>
+		<label>frustration drone</label>
+		<description>A discordant psychic hum is creating extreme physical numbness and irritability across the map.</description>
+	</GameConditionDef>
+</Defs>

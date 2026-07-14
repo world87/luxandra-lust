@@ -153,4 +153,34 @@
 			</li>
 		</stages>
 	</HediffDef>
+	
+	<HediffDef>
+		<defName>Luxandra_SexSatisfactionShifted</defName>
+		<label>intimate interference</label>
+		<description>A planetary aura is altering the intimate systems' responsiveness.</description>
+		<hediffClass>HediffWithComps</hediffClass>
+		<isBad>false</isBad>
+		<maxSeverity>2.5</maxSeverity>
+		<initialSeverity>1.0</initialSeverity> <!-- Baseline state -->
+		
+		<stages>
+			<li>
+				<label>dulled sensitivity</label>
+				<statFactors>
+					<SexSatisfaction>0.5</SexSatisfaction>
+				</statFactors>
+			</li>
+			<li>
+				<minSeverity>0.9</minSeverity>
+				<label>unaffected</label>
+			</li>
+			<li>
+				<minSeverity>1.5</minSeverity>
+				<label>heightened sensitivity</label>
+				<statFactors>
+					<SexSatisfaction>2.0</SexSatisfaction>
+				</statFactors>
+			</li>
+		</stages>
+	</HediffDef>
 </Defs>

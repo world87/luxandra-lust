@@ -146,27 +146,59 @@
 		<allowedBiomes/>
 	</IncidentDef>
   
-  <IncidentDef>
-    <defName>Luxandra_Inc_DivineConception</defName>
-    <label>divine conception</label>
-    <category>Misc</category>
-    <targetTags>
-      <li>Map_PlayerHome</li>
-    </targetTags>
-    <workerClass>LuxandraLust.IncidentWorker_DivineConception</workerClass>
-    <baseChance>0.10</baseChance>
-    <allowedBiomes />
-  </IncidentDef>
+	<IncidentDef>
+		<defName>Luxandra_Inc_DivineConception</defName>
+		<label>divine conception</label>
+		<category>Misc</category>
+		<targetTags>
+			<li>Map_PlayerHome</li>
+		</targetTags>
+		<workerClass>LuxandraLust.IncidentWorker_DivineConception</workerClass>
+		<baseChance>0.10</baseChance>
+		<allowedBiomes/>
+	</IncidentDef>
   
-  <IncidentDef>
-    <defName>Luxandra_Inc_ForbiddenConception</defName>
-    <label>forbidden conception</label>
-    <category>Misc</category>
-    <targetTags>
-      <li>Map_PlayerHome</li>
-    </targetTags>
-    <workerClass>LuxandraLust.IncidentWorker_ForbiddenConception</workerClass>
-    <baseChance>0.10</baseChance>
-    <allowedBiomes />
-  </IncidentDef>
+	<IncidentDef>
+		<defName>Luxandra_Inc_ForbiddenConception</defName>
+		<label>forbidden conception</label>
+		<category>Misc</category>
+		<targetTags>
+			<li>Map_PlayerHome</li>
+		</targetTags>
+		<workerClass>LuxandraLust.IncidentWorker_ForbiddenConception</workerClass>
+		<baseChance>0.10</baseChance>
+		<allowedBiomes/>
+	</IncidentDef>
+  
+<IncidentDef>
+		<defName>Luxandra_Inc_PleasureWave</defName>
+		<label>psychic pleasure wave</label>
+		<category>Misc</category>
+		<targetTags>
+			<li>Map_PlayerHome</li>
+		</targetTags>
+		<workerClass>LuxandraLust.IncidentWorker_PleasureWave</workerClass>
+		<baseChance>0.3</baseChance>
+		<minRefireDays>20</minRefireDays>
+		
+		<letterLabel>Psychic Pleasure Wave</letterLabel>
+		<letterText>A soothing aphrodisiac frequency is washing over the region. Every human feels a sudden, intense increase in physical sensitivity and emotional warmth.</letterText>
+		<letterDef>PositiveEvent</letterDef>
+	</IncidentDef>
+
+	<IncidentDef>
+		<defName>Luxandra_Inc_FrustrationDrone</defName>
+		<label>psychic frustration drone</label>
+		<category>Misc</category>
+		<targetTags>
+			<li>Map_PlayerHome</li>
+		</targetTags>
+		<workerClass>LuxandraLust.IncidentWorker_FrustrationDrone</workerClass>
+		<baseChance>0.3</baseChance>
+		<minRefireDays>20</minRefireDays>
+
+		<letterLabel>Psychic Frustration Drone</letterLabel>
+		<letterText>A grating psychic hum is echoing across the region. People feel physical numbness, irritability, and sudden difficulty finding intimacy satisfying.</letterText>
+		<letterDef>NegativeEvent</letterDef>
+	</IncidentDef>
 </Defs>

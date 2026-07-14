@@ -78,6 +78,7 @@
     <Compile Include="Incidents\IncidentWorker_DivineConception.cs" />
     <Compile Include="Incidents\IncidentWorker_ForbiddenLove.cs" />
     <Compile Include="Incidents\IncidentWorker_IntimateInfestation.cs" />
+    <Compile Include="Incidents\GameConditions\IncidentWorker_SatisfactionDrones.cs" />
     <Compile Include="Incidents\IncidentWorker_StripQuake.cs" />
     <Compile Include="Incidents\IncidentWorker_ThrallPodCrash.cs" />
     <Compile Include="Incidents\IncidentWorker_WetDream.cs" />
