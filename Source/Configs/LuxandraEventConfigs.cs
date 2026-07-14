@@ -29,9 +29,6 @@ namespace LuxandraLust
 
     public class LuxandraEventSettings : ModSettings
     {
-        /// <summary>
-        /// Whether to enable debug logging for the mod
-        /// </summary>
         public static List<string> disabledEventNames;
 
         private static Vector2 scrollPosition = Vector2.zero;
@@ -70,7 +67,7 @@ namespace LuxandraLust
                     string modSource = eventWrapper.ModRequired != "" ? $"({eventWrapper.ModRequired})" : "";
                     string label = eventWrapper.IncidentDef.label.CapitalizeFirst();
 
-                    bool isEnabled = !disabledEventNames.Contains(defName);
+                    bool isEnabled = disabledEventNames == null || !disabledEventNames.Contains(defName);
                     bool previousState = isEnabled;
 
                     string modDescription = $"{label} {modSource}";

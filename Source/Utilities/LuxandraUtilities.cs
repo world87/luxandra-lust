@@ -796,6 +796,8 @@ namespace LuxandraLust
             // Small failsafe just in case
             if (incidentDefs == null || incidentDefs.Count == 0) return new List<string>();
 
+            if (LuxandraEventSettings.disabledEventNames == null) return incidentDefs;
+
             return incidentDefs.Where(i => !LuxandraEventSettings.disabledEventNames.Contains(i)).ToList();
         }
 
@@ -812,6 +814,17 @@ namespace LuxandraLust
             try
             {
                 List<LuxandraIncidentDefs> incidentsToCheck = LuxandraDefsCollections.AllIncidents;
+
+                // I STG this thing
+                if (LuxandraEventSettings.disabledEventNames == null)
+                {
+                    LuxandraDebugActions.DebugLogMessage("disabledEventNames was messed up but working with it anyway.");
+
+                    if (LuxandraDefsCollections.AllIncidents.Any())
+                        return true;
+                    else
+                        return false;
+                }
 
                 switch (eventType)
                 {
