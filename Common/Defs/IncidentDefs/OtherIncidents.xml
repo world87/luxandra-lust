@@ -57,7 +57,7 @@
 
 	<IncidentDef>
 		<defName>Luxandra_Inc_TheMilkGame</defName>
-		<label>Lactose cataclysm</label>
+		<label>The Milk Game</label>
 		<category>ThreatBig</category>
 		<targetTags>
 			<li>Map_PlayerHome</li>
@@ -65,7 +65,9 @@
 		<workerClass>LuxandraLust.IncidentWorker_TheMilkGame</workerClass>
 		<baseChance>1.0</baseChance>
 		<minRefireDays>15</minRefireDays>
+		<letterLabel>The Milk Game</letterLabel>
 		<letterDef>NegativeEvent</letterDef>
+		<letterText>Luxandra has decided to play a game with your colony! Stomachs are full, lactation has been spontaneously induced across your women, and parts of your granaries have been turned into fresh milk.\n\nBut beware—she has invited some hungry guests to the banquet...</letterText>
 	</IncidentDef>
 
 	<IncidentDef>

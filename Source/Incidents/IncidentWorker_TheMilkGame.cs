@@ -115,12 +115,11 @@ namespace LuxandraLust
                 manhunterIncident.Worker.TryExecute(wolfParms);
             }
 
-            // Send a letter to the player explaining the event
+            // Send a letter to the player explaining the event7
             Find.LetterStack.ReceiveLetter(
-                "Lactose Cataclysm",
-                "Luxandra has decided to play a game with your colony! Stomachs are full, lactation has been spontaneously induced across your women, and parts of your granaries have been turned into fresh milk.\n\nBut beware—she has invited some hungry guests to the banquet...",
-                LetterDefOf.NegativeEvent,
-                new TargetInfo(map.mapPawns.FreeColonistsSpawned.RandomElement().Position, map)
+                this.def.letterLabel,
+                this.def.letterText,
+                this.def.letterDef ?? LetterDefOf.NegativeEvent
             );
 
             return true;

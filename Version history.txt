@@ -5,6 +5,7 @@
 - Anomaly being active is now enough to enable tentacle kink due to the above
 - New incident: Sexual Satisfaction Drone. A drone-type event that will either increase or decrease the sex satisfaction for a few days
 - Also added Mech Cluster and Worksite version of the negative variant
+- Renamed the "Lactose Cataclysm" to "The Milk Game" as the actual Lactose Cataclysm will be something else been worked on
 
 0.15.2 - 12/07/2026
 - Corrected the sex check so it only looks at colonists' sex acts rather than any humanoid on the map. (This should fix some modded visitors accidentally triggering Kinks)
