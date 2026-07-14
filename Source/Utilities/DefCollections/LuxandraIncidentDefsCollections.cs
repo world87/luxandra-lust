@@ -37,6 +37,9 @@ namespace LuxandraLust
         public static IncidentDef Luxandra_Inc_WetDreamsPulseSite;
         public static IncidentDef Luxandra_Inc_WetDreamsPulseMechCluster;
 
+        public static IncidentDef Luxandra_Inc_PleasureWave;
+        public static IncidentDef Luxandra_Inc_FrustrationDrone;
+
         public static IncidentDef Luxandra_Inc_RapistBreak;
 
         // Raids
@@ -272,6 +275,20 @@ namespace LuxandraLust
                 description: "Luxandra_Inc_WetDreamsPulseMechCluster_Desc".Translate(),
                 pointBaseCost: 55,
                 kinks: new[] { StorytellerKink.Cum }
+            ));
+
+            temporaryList.Add(new LuxandraIncidentDefs(
+                incidentDef: LuxandraIncidentDefOf.Luxandra_Inc_PleasureWave,
+                incidentType: LuxandraIncidentType.Positive,
+                description: "Luxandra_Inc_PleasureWaveCluster_Desc".Translate(),
+                pointBaseCost: 20
+            ));
+
+            temporaryList.Add(new LuxandraIncidentDefs(
+                incidentDef: LuxandraIncidentDefOf.Luxandra_Inc_FrustrationDrone,
+                incidentType: LuxandraIncidentType.Negative,
+                description: "Luxandra_Inc_FrustrationDrone_Desc".Translate(),
+                pointBaseCost: 20
             ));
 
             temporaryList.Add(new LuxandraIncidentDefs(
