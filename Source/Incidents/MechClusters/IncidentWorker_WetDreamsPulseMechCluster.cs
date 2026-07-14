@@ -9,7 +9,7 @@ namespace LuxandraLust
         {
             if (!base.CanFireNowSub(parms)) return false;
 
-            if (!LuxandraEventCheck.IsEnabled(LuxandraIncidentDefOf.Luxandra_Inc_FertilityPulseMechCluster.defName))
+            if (!LuxandraEventCheck.IsEnabled(LuxandraIncidentDefOf.Luxandra_Inc_WetDreamsPulseMechCluster.defName))
             {
                 return false;
             }
