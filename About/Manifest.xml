@@ -1,10 +1,30 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <Manifest>
 	<identifier>Luxandra Lust</identifier>
-	<version>0.16</version>
-	<dependencies/>
-	<incompatibleWith/>
-	<loadAfter/>
+	<version>0.17</version>
+	<dependencies>
+		<li>
+			<packageId>rim.job.world</packageId>
+			<displayName>RimJobWorld</displayName>
+			<downloadUrl>https://gitgud.io/Ed86/rjw</downloadUrl>
+		</li>
+		<li>
+			<packageId>brrainz.harmony</packageId>
+			<displayName>Harmony</displayName>
+			<steamWorkshopUrl>steam://url/CommunityFilePage/2009463077</steamWorkshopUrl>
+			<downloadUrl>https://github.com/pardeike/HarmonyRimWorld/releases/latest</downloadUrl>
+		</li>
+	</dependencies>
+    <incompatibleWith>
+        <li>Abraxas.Tweaks.Incest</li> <!-- Both mods have same incest patch -->
+        <li>nugerumon.IWantIncest</li>
+    </incompatibleWith>
+	<loadAfter>
+		<li>brrainz.harmony</li>
+		<li>rim.job.world</li>
+		<li>rjw.menstruation</li>
+		<li>CombatExtended.CombatExtendedMod</li>
+	</loadAfter>
 	<suggests/>
 	<manifestUri>https://github.com/world87/luxandra-lust/About/Manifest.xml</manifestUri>
 	<downloadUri>https://github.com/world87/luxandra-lust</downloadUri>

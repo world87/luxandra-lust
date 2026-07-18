@@ -36,7 +36,7 @@ namespace LuxandraLust
             HediffDef resizeHediffDef = DefDatabase<HediffDef>.GetNamed(HediffDefName, false);
             if (resizeHediffDef == null)
             {
-                Log.Warning("[Luxandra Debug] Def for Luxandra_GenitalResizing not found in the database.");
+                Log.Warning("[Luxandra Debug] Def for Luxandra_BustyCurse not found in the database.");
                 return false;
             }
 

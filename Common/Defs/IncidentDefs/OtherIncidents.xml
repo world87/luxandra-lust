@@ -203,4 +203,20 @@
 		<letterText>A grating psychic hum is echoing across the region. People feel physical numbness, irritability, and sudden difficulty finding intimacy satisfying.</letterText>
 		<letterDef>NegativeEvent</letterDef>
 	</IncidentDef>
+	
+	<IncidentDef>
+		<defName>Luxandra_Inc_LactoseCataclysm</defName>
+		<label>lactose cataclysm</label>
+		<category>ThreatBig</category>
+		<targetTags>
+			<li>Map_PlayerHome</li>
+		</targetTags>
+		<workerClass>LuxandraLust.IncidentWorker_LactoseCataclysm</workerClass>
+		<baseChance>0.1</baseChance> <!-- Rare catastrophe -->
+		<minRefireDays>45</minRefireDays>
+
+		<letterLabel>Lactose Cataclysm</letterLabel>
+		<letterText>A bizarre energetic wave has burst across the sector, overloading local biological matter.\n\nEvery adult male's chest has physically swelled, all breast tissue has broken into spontaneous overproduction, and storage stockpiles have violently duplicated their dairy volumes.\n\nWorse yet, the overwhelming aroma has driven a massive horde of local cows completely insane! They are entering the map boundaries looking for blood.</letterText>
+		<letterDef>ThreatBig</letterDef>
+	</IncidentDef>
 </Defs>

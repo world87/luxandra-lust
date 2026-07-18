@@ -11,7 +11,7 @@
 	</ThingDef>
 	
 	<!-- Milk, shouldn't be that ugly -->
-	<ThingDef>
+	<ThingDef ParentName="BaseFilth" >
 		<defName>Luxandra_FilthMilk</defName>
 		<label>spilled milk</label>
 		<statBases>
