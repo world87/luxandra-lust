@@ -22,7 +22,6 @@ https://rjw.miraheze.org/wiki/Luxandra_Lust/1.6
 <br>
 <br>
 Storyteller and kink art by ScorchedRose9 - https://linktr.ee/Scorched_Rose9<br>
-Monument base art by LordHades<br>
-Altar art by Gerrymon<br>
+Monument base art and altar art by LordHades<br>
 <br><br>
 Traditional CN Translation by baphomet6044 / 美好的一天，夥計。

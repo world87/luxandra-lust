@@ -7,7 +7,8 @@
 		<graphicData>
 			<texPath>Things/Buildings/Luxandra_Pedestal</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
-			<drawSize>(2,2)</drawSize>
+			<drawSize>(1,1)</drawSize>
+			<shaderType>CutoutComplex</shaderType>
 		</graphicData>
 		<category>Building</category>
 		<thingClass>LuxandraLust.Building_TributePedestal</thingClass>
@@ -15,7 +16,7 @@
 		<uiOrder>3001</uiOrder>
 		<selectable>true</selectable>
 		<rotatable>false</rotatable>
-		<altitudeLayer>Building</altitudeLayer>
+		<altitudeLayer>ItemImportant</altitudeLayer>
 		<passability>PassThroughOnly</passability>
 		<fillPercent>0.2</fillPercent>
 		<statBases>

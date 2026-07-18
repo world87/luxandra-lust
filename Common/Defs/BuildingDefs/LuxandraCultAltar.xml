@@ -18,6 +18,7 @@
 		<filthLeaving>Filth_RubbleRock</filthLeaving>
 		<uiIconScale>0.8</uiIconScale>
 		<uiIconOffset>(0, 0.04)</uiIconOffset>
+		<altitudeLayer>ItemImportant</altitudeLayer>
     
 		<stuffCategories>
 			<li>Metallic</li>
@@ -71,7 +72,7 @@
 		<graphicData>
 			<texPath>Things/Buildings/Luxandra_Altar</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
-			<drawSize>(4,4)</drawSize>
+			<drawSize>(3,3)</drawSize>
 		</graphicData>
 	</ThingDef>
 
@@ -93,7 +94,7 @@
 		<graphicData>
 			<texPath>Things/Buildings/Luxandra_Altar</texPath>
 			<graphicClass>Graphic_Multi</graphicClass>
-			<drawSize>(5,5)</drawSize>
+			<drawSize>(3,3)</drawSize>
 		</graphicData>
 	</ThingDef>
   
@@ -112,7 +113,7 @@
 		<graphicData>
 			<texPath>Things/Buildings/Luxandra_Altar</texPath>
 			<graphicClass>Graphic_Multi</graphicClass>
-			<drawSize>(5,5)</drawSize>
+			<drawSize>(3,3)</drawSize>
 		</graphicData>
 	</ThingDef>
 
@@ -134,7 +135,7 @@
 		<graphicData>
 			<texPath>Things/Buildings/Luxandra_Altar</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
-			<drawSize>(6,6)</drawSize>
+			<drawSize>(5,5)</drawSize>
 		</graphicData>
 	</ThingDef>
 
