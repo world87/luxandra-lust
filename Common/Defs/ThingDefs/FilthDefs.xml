@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<!-- We needed a thicker cum so the rain doesn't wash it! -->
+	<ThingDef ParentName="BaseCumFilth">
+		<defName>Luxandra_FilthCumRain</defName>
+		<label>Sticky cum puddle</label>
+		<filth>
+			<rainWashes>false</rainWashes>
+			<disappearsInDays>9~11</disappearsInDays>
+		</filth>
+	</ThingDef>
+	
+	<!-- Milk, shouldn't be that ugly -->
+	<ThingDef>
+		<defName>Luxandra_FilthMilk</defName>
+		<label>spilled milk</label>
+		<statBases>
+			<Beauty>-2</Beauty>
+		</statBases>
+		<graphicData>
+			<texPath>Things/Filth/Spatter</texPath>
+			<color>(180, 180, 180, 100)</color>
+		</graphicData>
+		<filth>
+			<rainWashes>true</rainWashes>
+			<cleaningWorkToReduceThickness>35</cleaningWorkToReduceThickness>
+			<canFilthAttach>true</canFilthAttach>
+		</filth>
+	</ThingDef>
+	</Defs>

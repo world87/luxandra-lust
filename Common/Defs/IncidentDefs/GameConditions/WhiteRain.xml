@@ -21,16 +21,6 @@
 		<description>A bizarre, sticky, milk-white rain falls over the area. Any adult standing outdoors will quickly build up a raw, animalistic urge until they finally snap.</description>
 		<weatherDef>Luxandra_Rain_White</weatherDef>
 	</GameConditionDef>
-  
-	<!-- We needed a thicker cum so the rain doesn't wash it! -->
-	<ThingDef ParentName="BaseCumFilth">
-		<defName>Luxandra_FilthCumRain</defName>
-		<label>Sticky cum puddle</label>
-		<filth>
-			<rainWashes>false</rainWashes>
-			<disappearsInDays>9~11</disappearsInDays>
-		</filth>
-	</ThingDef>
 
 	<!-- The Visual Weather -->
 	<WeatherDef>
