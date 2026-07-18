@@ -1,4 +1,4 @@
-0.17 - 18/07/2026
+0.16.1 - 18/07/2026
 - Added actual art for the tribute pedestal
 - Fixed the graphic issue of the statue clipping through walls (though also made it smaller)
 - Added the actual Lactose Cataclysm event
