@@ -55,6 +55,7 @@ namespace LuxandraLust
         public static IncidentDef Luxandra_Inc_InquisitionPurgeSappers;
 
         public static IncidentDef Luxandra_Inc_TheMilkGame;
+        public static IncidentDef Luxandra_Inc_LactoseCataclysm;
 
         // Disease, illnesses
         public static IncidentDef Luxandra_Inc_AphrodisiacFever;
@@ -361,6 +362,14 @@ namespace LuxandraLust
                 incidentType: LuxandraIncidentType.Neutral,
                 description: "Luxandra_Inc_TheMilkGame_Desc".Translate(),
                 pointBaseCost: 40
+            ));
+
+            temporaryList.Add(new LuxandraIncidentDefs(
+                incidentDef: LuxandraIncidentDefOf.Luxandra_Inc_LactoseCataclysm,
+                incidentType: LuxandraIncidentType.Neutral,
+                description: "Luxandra_Inc_LactoseCataclysm_Desc".Translate(),
+                pointBaseCost: 80,
+                kinks: new[] { StorytellerKink.Breasts, StorytellerKink.Futa }
             ));
 
             temporaryList.Add(new LuxandraIncidentDefs(

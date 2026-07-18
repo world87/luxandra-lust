@@ -3,6 +3,7 @@ using rjw.Modules.Interactions;
 using System.Collections.Generic;
 using System.Linq;
 using Verse;
+using Verse.Sound;
 
 namespace LuxandraLust
 {
@@ -10,9 +11,13 @@ namespace LuxandraLust
     {
         protected override bool CanFireNowSub(IncidentParms parms)
         {
-            if (!base.CanFireNowSub(parms)) return false;
-            Map map = parms.target as Map;
-            return map != null && map.mapPawns.FreeAdultColonistsSpawned.Any(p => !p.Dead && LuxandraUtilities.IsAdult(p));
+            if (!LuxandraEventCheck.IsEnabled(LuxandraIncidentDefOf.Luxandra_Inc_LactoseCataclysm.defName))
+                return false;
+
+            Map map = (Map)parms.target;
+            if (map == null) return false;
+
+            return map.mapPawns.FreeAdultColonistsSpawned.Any(p => !p.Dead && LuxandraUtilities.IsAdult(p));
         }
 
         protected override bool TryExecuteWorker(IncidentParms parms)
@@ -106,6 +111,8 @@ namespace LuxandraLust
                     if (sexNeed != null) sexNeed.CurLevel = sexNeed.MaxLevel;
                 }
             }
+
+            SoundDefOf.PsychicPulseGlobal.PlayOneShotOnCamera((Map)parms.target);
 
             // ==========================================
             // THE DAIRY MULTIPLICATION

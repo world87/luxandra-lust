@@ -34,7 +34,7 @@ namespace LuxandraLust
             map.gameConditionManager.RegisterCondition(condition);
 
             // Play the positive global sound cue
-            SoundDefOf.PsychicSootheGlobal.PlayOneShotOnCamera(null);
+            SoundDefOf.PsychicSootheGlobal.PlayOneShotOnCamera((Map)parms.target);
 
             Find.LetterStack.ReceiveLetter(
                 this.def.letterLabel,
@@ -76,7 +76,7 @@ namespace LuxandraLust
             map.gameConditionManager.RegisterCondition(condition);
 
             // Play the negative global sound cue
-            SoundDefOf.PsychicPulseGlobal.PlayOneShotOnCamera(null);
+            SoundDefOf.PsychicPulseGlobal.PlayOneShotOnCamera((Map)parms.target);
 
             Find.LetterStack.ReceiveLetter(
                 this.def.letterLabel,

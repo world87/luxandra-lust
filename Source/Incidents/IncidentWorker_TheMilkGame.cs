@@ -10,9 +10,7 @@ namespace LuxandraLust
         protected override bool CanFireNowSub(IncidentParms parms)
         {
             if (!LuxandraEventCheck.IsEnabled(LuxandraIncidentDefOf.Luxandra_Inc_TheMilkGame.defName))
-            {
                 return false;
-            }
 
             Map map = (Map)parms.target;
             if (map == null) return false;

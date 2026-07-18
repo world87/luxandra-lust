@@ -1,6 +1,7 @@
 0.17 - 18/07/2026
 - Added actual art for the tribute pedestal
 - Fixed the graphic issue of the statue clipping through walls (though also made it smaller)
+- Added the actual Lactose Cataclysm event
 
 0.16 - 14/07/2026
 - Corrected the Aphrodisiac fever calculation to still reduce severity on all parts affected if a pawn has it on more than one place
