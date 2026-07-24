@@ -1,3 +1,8 @@
+IMPORTANT NOTICE: The main Git for this mod has been moved to<br>
+https://gitgud.io/Worldie/luxandra-lust.git<br>
+<br><br>
+For further updates look for the version from GitGud... or from the Libidinous Loader / Wiki, as both of those point to the correct link.<br>
+<br><br>
 A RimJobWorld based storyteller.<br>
 <br>
 Luxandra Lust is a Storyteller focused on creating adventures that make full use of everything RimJobWorld has to offer.<br>
